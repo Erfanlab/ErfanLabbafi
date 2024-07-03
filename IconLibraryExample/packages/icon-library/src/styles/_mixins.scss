@@ -1,0 +1,25 @@
+@use "sass:map";
+
+/* ==========================================================================
+   Mixins
+   ========================================================================== */
+
+@mixin icon($name) {
+  $svg-data: map.get($icons-map, $name);
+  .icon-#{$name} {
+    mask-image: url('data:image/svg+xml;utf8,#{$svg-data}');
+  }
+}
+
+/// Prints a map as a CSS rule
+/// @param {Map} $map
+@mixin debug-map($map) {
+  @at-root {
+    @warn "Debugging Sass Maps is enabled. Please do not use the mixin in production mode!";
+    __properties__ {
+      @each $key, $value in $map {
+        #{$key}: $value;
+      }
+    }
+  }
+}

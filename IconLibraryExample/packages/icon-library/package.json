@@ -1,0 +1,44 @@
+{
+    "name": "@alexanderweigelt/icon-library",
+    "description": "TODO: description",
+    "author": "Alexander Weigelt <webdesign@alexander-weigelt.de>",
+    "homepage": "https://alexander-weigelt.de",
+    "version": "1.1.0",
+    "license": "MIT",
+    "main": "lib/components/IconComponent.ts",
+    "module": "lib/components/IconComponent.js",
+    "types": "lib/components/IconComponent.d.ts",
+    "style": "lib/styles/main.css",
+    "files": [
+        "lib"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prebuild": "node build/compile.js",
+        "build:static": "node build/compile.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "immutable": "^4.3.4"
+    },
+    "devDependencies": {
+        "@types/node": "^20.8.8",
+        "jsdom": "^22.1.0",
+        "sass": "^1.66.1",
+        "svgo": "^3.0.2",
+        "typescript": "^5.2.2"
+    },
+    "publishConfig": {
+        "access": "public",
+        "@alexanderweigelt:registry": "https://npm.pkg.github.com"
+    },
+    "keywords": [
+        "icons",
+        "library",
+        "example",
+        "svg"
+    ],
+    "bugs": {
+        "url": "https://github.com/alexanderweigelt/IconLibraryExample/issues"
+    }
+}

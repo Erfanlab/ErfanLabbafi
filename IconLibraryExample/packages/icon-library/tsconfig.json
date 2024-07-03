@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "declaration": true,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "target": "es2022",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+    },
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ],
+    "include": [
+        "lib"
+    ]
+}

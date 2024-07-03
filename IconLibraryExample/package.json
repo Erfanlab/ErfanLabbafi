@@ -1,0 +1,31 @@
+{
+    "name": "icon-library-example",
+    "version": "1.0.0",
+    "description": "> TODO: description",
+    "private": true,
+    "keywords": [
+        "icon",
+        "library",
+        "example"
+    ],
+    "author": "Alexander Weigelt <webdesign@alexander-weigelt.de>",
+    "license": "ISC",
+    "scripts": {
+        "dev": "lerna run dev",
+        "build": "lerna run build --stream",
+        "preview": "lerna run preview",
+        "publish": "lerna publish --no-private",
+        "test": "lerna run test"
+    },
+    "workspaces": [
+        "packages/*",
+        "example/*"
+    ],
+    "dependencies": {},
+    "devDependencies": {
+        "lerna": "^7.1.5"
+    },
+    "engines": {
+        "node": ">=18.18"
+    }
+}

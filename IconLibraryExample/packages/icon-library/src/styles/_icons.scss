@@ -1,0 +1,25 @@
+/* ==========================================================================
+  Icon styles
+  ========================================================================== */
+
+// Create a map of icon
+$icons-map: getIconsMap();
+
+@each $name, $svg-url in $icons-map {
+  @include icon($name);
+}
+
+.icon, icon-component {
+  width: 24px; // Adjust as needed
+  height: 24px; // Adjust as needed
+  display: inline-block;
+  fill: currentcolor; // Icons will inherit text color
+  stroke-width: 0;
+  stroke: currentcolor;
+}
+
+[class^='icon-'], [class*=' icon-'] {
+  background-color: currentColor;
+  mask-repeat: no-repeat;
+  mask-size: contain;
+}
