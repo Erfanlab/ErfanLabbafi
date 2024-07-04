@@ -6,6 +6,12 @@ const { space } = require("postcss/lib/list");
 module.exports = {
   content: ["index.html"],
   theme: {
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px',
+    },
     colors: {
       transparent: "transparent",
       black: "#000",
@@ -21,6 +27,9 @@ module.exports = {
         800: "#0E6C5A",
         900: "#0B5144",
       },
+      second:{
+        100:'#2D2D2D',
+      },
 
       // ...
     },
@@ -31,7 +40,7 @@ module.exports = {
       },
     },
     gap: {
-      0: "1px",
+      0: "0",
       0.5: "2.5px",
       1: "5px",
       2: "10px",
@@ -44,9 +53,27 @@ module.exports = {
       9: "50px",
     },
     height: {
-      0: "50px",
-      0.5: "60px",
+      0:'0',
+      0.45:'45px',
+      0.5: "50px",
+      0.6: "60px",
       0.7:'70px',
+      1: "100px",
+      2: "150px",
+      3: "250px",
+      4: "350px",
+      5: "400px",
+      6: "500px",
+      7: "600px",
+      8: "700px",
+    },
+    width: {
+      0:'0',
+      0.45:'45px',
+      0.5: "50px",
+      0.6: "60px",
+      0.7:'70px',
+      0.75:'75px',
       1: "100px",
       2: "150px",
       3: "250px",
@@ -70,6 +97,7 @@ module.exports = {
       9: "90px",
       10: "100px",
     },
+  
   },
   plugins: [],
 };
