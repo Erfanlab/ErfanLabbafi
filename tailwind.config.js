@@ -51,6 +51,7 @@ module.exports = {
       7: "40px",
       8: "45px",
       9: "50px",
+      50:"500px"
     },
     height: {
       0:'0',
@@ -66,6 +67,7 @@ module.exports = {
       6: "500px",
       7: "600px",
       8: "700px",
+      full:'100%'
     },
     width: {
       0:'0',
@@ -82,6 +84,7 @@ module.exports = {
       6: "500px",
       7: "600px",
       8: "700px",
+      full:'100%'
     },
     spacing: {
       0: "0",
@@ -96,7 +99,9 @@ module.exports = {
       8: "80px",
       9: "90px",
       10: "100px",
+      50: "500px"
     },
+  
   
   },
   plugins: [],

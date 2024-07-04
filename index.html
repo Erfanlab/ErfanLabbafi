@@ -16,6 +16,149 @@
       fill="white"
     />
   </symbol>
+  <symbol
+    id="hambergerMenu"
+    width="42"
+    height="28"
+    viewBox="0 0 42 28"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g filter="url(#filter0_d_624_88)">
+      <path
+        d="M6 1.66663H36"
+        stroke="white"
+        stroke-width="3"
+        stroke-miterlimit="11.4737"
+        stroke-linecap="round"
+      />
+    </g>
+    <g filter="url(#filter1_d_624_88)">
+      <path
+        d="M6 10H36"
+        stroke="white"
+        stroke-width="3"
+        stroke-miterlimit="11.4737"
+        stroke-linecap="round"
+      />
+    </g>
+    <g filter="url(#filter2_d_624_88)">
+      <path
+        d="M6 18.3334H36"
+        stroke="white"
+        stroke-width="3"
+        stroke-miterlimit="11.4737"
+        stroke-linecap="round"
+      />
+    </g>
+    <defs>
+      <filter
+        id="filter0_d_624_88"
+        x="0.5"
+        y="0.166626"
+        width="41"
+        height="11"
+        filterUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB"
+      >
+        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        />
+        <feOffset dy="4" />
+        <feGaussianBlur stdDeviation="2" />
+        <feComposite in2="hardAlpha" operator="out" />
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+        />
+        <feBlend
+          mode="normal"
+          in2="BackgroundImageFix"
+          result="effect1_dropShadow_624_88"
+        />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="effect1_dropShadow_624_88"
+          result="shape"
+        />
+      </filter>
+      <filter
+        id="filter1_d_624_88"
+        x="0.5"
+        y="8.5"
+        width="41"
+        height="11"
+        filterUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB"
+      >
+        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        />
+        <feOffset dy="4" />
+        <feGaussianBlur stdDeviation="2" />
+        <feComposite in2="hardAlpha" operator="out" />
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+        />
+        <feBlend
+          mode="normal"
+          in2="BackgroundImageFix"
+          result="effect1_dropShadow_624_88"
+        />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="effect1_dropShadow_624_88"
+          result="shape"
+        />
+      </filter>
+      <filter
+        id="filter2_d_624_88"
+        x="0.5"
+        y="16.8334"
+        width="41"
+        height="11"
+        filterUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB"
+      >
+        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        />
+        <feOffset dy="4" />
+        <feGaussianBlur stdDeviation="2" />
+        <feComposite in2="hardAlpha" operator="out" />
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+        />
+        <feBlend
+          mode="normal"
+          in2="BackgroundImageFix"
+          result="effect1_dropShadow_624_88"
+        />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="effect1_dropShadow_624_88"
+          result="shape"
+        />
+      </filter>
+    </defs>
+  </symbol>
 </svg>
 
 <!doctype html>
@@ -27,11 +170,23 @@
     <link rel="icon" href="./assest/src/images/Svg/logoWeb.svg" />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="flex justify-between  w-full flex-col items-center">
     <nav
-      class="w-full bg-main-500 font-yekan text-3xl h-0.7 flex overflow-hidden items-center justify-between"
+      class="w-full bg-main-500 font-yekan text-3xl h-0.7 flex overflow-hidden items-center justify-between fixed mb-50"
       dir="rtl"
     >
+      <div class="max-md:flex lg:hidden">
+        <svg
+          width="42"
+          height="28"
+          viewBox="0 0 42 28"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          >
+          <use href="#hambergerMenu"></use>
+        </svg>
+      </div>
       <div class="flex gap-9 ms-5 max-sm:hidden">
         <a href="">
           <div class="text-3xl font-yekanBold text-white link1">خانه</div>
@@ -47,7 +202,7 @@
         </a>
       </div>
       <div class="flex gap-8">
-        <div class="flex bg-white rounded-lg h-0.45 w-2">
+        <div class="flex bg-white rounded-lg h-0.45 w-2 max-sm:hidden">
           <div
             class="bg-second-100 font-yekanBold text-white rounded-lg w-0.75 h-0.75 flex justify-center items-center"
           >
@@ -74,5 +229,145 @@
         </div>
       </div>
     </nav>
+    <main class="flex overflow-hidden w-full flex-col items-center justify-center text-center pt-5">
+      <h1>main</h1>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+        consequuntur, earum placeat laborum, maxime excepturi odit debitis nulla
+        id ratione, sit velit eligendi. Dicta placeat quia, iusto neque
+        molestias sed.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+        consequuntur, earum placeat laborum, maxime excepturi odit debitis nulla
+        id ratione, sit velit eligendi. Dicta placeat quia, iusto neque
+        molestias sed.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+        consequuntur, earum placeat laborum, maxime excepturi odit debitis nulla
+        id ratione, sit velit eligendi. Dicta placeat quia, iusto neque
+        molestias sed.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+        consequuntur, earum placeat laborum, maxime excepturi odit debitis nulla
+        id ratione, sit velit eligendi. Dicta placeat quia, iusto neque
+        molestias sed.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+        consequuntur, earum placeat laborum, maxime excepturi odit debitis nulla
+        id ratione, sit velit eligendi. Dicta placeat quia, iusto neque
+        molestias sed.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+        consequuntur, earum placeat laborum, maxime excepturi odit debitis nulla
+        id ratione, sit velit eligendi. Dicta placeat quia, iusto neque
+        molestias sed.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+        consequuntur, earum placeat laborum, maxime excepturi odit debitis nulla
+        id ratione, sit velit eligendi. Dicta placeat quia, iusto neque
+        molestias sed.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+        consequuntur, earum placeat laborum, maxime excepturi odit debitis nulla
+        id ratione, sit velit eligendi. Dicta placeat quia, iusto neque
+        molestias sed.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+        consequuntur, earum placeat laborum, maxime excepturi odit debitis nulla
+        id ratione, sit velit eligendi. Dicta placeat quia, iusto neque
+        molestias sed.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+        consequuntur, earum placeat laborum, maxime excepturi odit debitis nulla
+        id ratione, sit velit eligendi. Dicta placeat quia, iusto neque
+        molestias sed.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+        consequuntur, earum placeat laborum, maxime excepturi odit debitis nulla
+        id ratione, sit velit eligendi. Dicta placeat quia, iusto neque
+        molestias sed.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+        consequuntur, earum placeat laborum, maxime excepturi odit debitis nulla
+        id ratione, sit velit eligendi. Dicta placeat quia, iusto neque
+        molestias sed.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+        consequuntur, earum placeat laborum, maxime excepturi odit debitis nulla
+        id ratione, sit velit eligendi. Dicta placeat quia, iusto neque
+        molestias sed.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+        consequuntur, earum placeat laborum, maxime excepturi odit debitis nulla
+        id ratione, sit velit eligendi. Dicta placeat quia, iusto neque
+        molestias sed.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+        consequuntur, earum placeat laborum, maxime excepturi odit debitis nulla
+        id ratione, sit velit eligendi. Dicta placeat quia, iusto neque
+        molestias sed.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+        consequuntur, earum placeat laborum, maxime excepturi odit debitis nulla
+        id ratione, sit velit eligendi. Dicta placeat quia, iusto neque
+        molestias sed.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+        consequuntur, earum placeat laborum, maxime excepturi odit debitis nulla
+        id ratione, sit velit eligendi. Dicta placeat quia, iusto neque
+        molestias sed.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+        consequuntur, earum placeat laborum, maxime excepturi odit debitis nulla
+        id ratione, sit velit eligendi. Dicta placeat quia, iusto neque
+        molestias sed.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+        consequuntur, earum placeat laborum, maxime excepturi odit debitis nulla
+        id ratione, sit velit eligendi. Dicta placeat quia, iusto neque
+        molestias sed.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+        consequuntur, earum placeat laborum, maxime excepturi odit debitis nulla
+        id ratione, sit velit eligendi. Dicta placeat quia, iusto neque
+        molestias sed.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+        consequuntur, earum placeat laborum, maxime excepturi odit debitis nulla
+        id ratione, sit velit eligendi. Dicta placeat quia, iusto neque
+        molestias sed.
+      </div>
+
+
+
+
+
+
+
+
+    </main>
+    <footer class="w-full bg-black h-3">
+      <div></div>
+    </footer>
   </body>
 </html>
