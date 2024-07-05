@@ -12,6 +12,7 @@ module.exports = {
       lg: "976px",
       xl: "1440px",
     },
+
     colors: {
       transparent: "transparent",
       black: "#000",
@@ -57,6 +58,10 @@ module.exports = {
         yekanBold: "Yekan-bold",
         yekan: "Yekan-light", // Adds a new `font-display` class
       },
+      zIndex:{
+        0:"-1",
+        1:"20"
+      },
     },
     gap: {
       0: "0",
@@ -88,6 +93,8 @@ module.exports = {
       7: "600px",
       8: "700px",
       full: "100%",
+      'full-80':'80%',
+      'full-90':"90%"
     },
     width: {
       0: "0",
@@ -106,9 +113,13 @@ module.exports = {
       7: "600px",
       8: "700px",
       full: "100%",
-      full50:"50%",
-      full80:"80%",
-      full90:"90%"
+      'full-10':"10%",
+      'full-15':"15%",
+      'full-20':"20%",
+      'full-50':"50%",
+      'full-80':"80%",
+      'full-90':"90%",
+      'full-95':'95%'
     },
     spacing: {
       0: "0",
@@ -133,6 +144,9 @@ module.exports = {
     fontSize:{
       'sm':"20px"
     },
+    
   },
+  
+
   plugins: [],
 };
