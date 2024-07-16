@@ -31,6 +31,12 @@ module.exports = {
       second: {
         100: "#2D2D2D",
       },
+      red:{
+        red:'#A10000'
+      },
+      green:{
+        green:'#0B8700'
+      },
       gray: {
         100: "#6D6D6D",
         200: "#585858",
@@ -59,8 +65,8 @@ module.exports = {
         yekan: "Yekan-light", // Adds a new `font-display` class
       },
       zIndex:{
-        0:"-1",
-        1:"20"
+        0:"0",
+        1:"1",
       },
     },
     gap: {
@@ -79,6 +85,9 @@ module.exports = {
     },
     height: {
       0: "0",
+      0.2:"20px",
+      0.25:"25px",
+      0.3: "30px",
       0.45: "45px",
       0.5: "50px",
       0.6: "60px",
@@ -93,8 +102,12 @@ module.exports = {
       7: "600px",
       8: "700px",
       full: "100%",
+      'full-70':'70%',
       'full-80':'80%',
-      'full-90':"90%"
+      'full-85':'85%',
+      'full-90':"90%",
+      'full-95':"95%",
+
     },
     width: {
       0: "0",
@@ -118,6 +131,7 @@ module.exports = {
       'full-20':"20%",
       'full-50':"50%",
       'full-80':"80%",
+      'full-85':"85%",
       'full-90':"90%",
       'full-95':'95%'
     },
@@ -137,12 +151,16 @@ module.exports = {
       50: "500px",
     },
     borderRadius:{
+      'sm-m-1':"5px",
       'sm-1':"10px",
       'sm':"20px",
       'md':"30px",
     },
     fontSize:{
-      'sm':"20px"
+      'sm-1':"14px",
+      '16':"16px",
+      'sm':"20px",
+      'md':"30px"
     },
     
   },

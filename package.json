@@ -2,9 +2,9 @@
   "name": "erfanlabbafi-portfolio-version-2",
   "version": "1.0.0",
   "description": "made:erfanlabbafi",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test.js --reporter mocha-junit-reporter --timeout 60000 --exit"
   },
   "author": "",
   "license": "ISC",
@@ -21,5 +21,8 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
+  },
+  "dependencies": {
+    "mocha": "^10.6.0"
   }
 }
