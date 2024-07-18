@@ -285,7 +285,7 @@
       class="w-full bg-main-500 font-yekan text-3xl h-0.7 flex overflow-hidden items-center justify-between fixed mb-50"
       dir="rtl"
     >
-      <div class="max-md:flex lg:hidden">
+      <div class="sm2:flex md:hidden">
         <svg
           width="42"
           height="28"
@@ -297,7 +297,7 @@
           <use href="#hambergerMenu"></use>
         </svg>
       </div>
-      <div class="flex gap-9 ms-5 max-sm:hidden">
+      <div class="flex gap-9 ms-5 sm2:hidden">
         <a href="">
           <div class="text-3xl font-yekanBold text-white link1">خانه</div>
         </a>
@@ -312,7 +312,7 @@
         </a>
       </div>
       <div class="flex gap-8">
-        <div class="flex bg-white rounded-lg h-0.45 w-2 max-sm:hidden">
+        <div class="flex bg-white rounded-lg h-0.45 w-2 sm2:hidden">
           <div
             class="bg-second-100 font-yekanBold text-white rounded-lg w-0.75 h-0.75 flex justify-center items-center"
           >
@@ -471,27 +471,27 @@
       </div>
     </main>
     <footer
-      class="w-full bg-gray-100 rounded-t-sm flex flex-col justify-center items-center h-4"
+      class="w-full bg-gray-100 rounded-t-sm flex justify-center items-center h-3 sm2:h-4 font-yekan"
     >
       <div
-        class="w-full-95 h-full-95 rounded-sm bg-gray-700 opacity-80 flex flex-col items-center"
+        class="w-full-95 h-full-85 sm2:h-full-95 rounded-sm bg-gray-700 opacity-80 items-center md:px-2 flex justify-between sm2:justify-center sm2:flex-col"
       >
-        <div class="flex justify-between relative items-center h-2 w-full-90">
-          <div class="w-full-85 h-full-85 relative mt-3 z-1">
+        <div class="flex justify-between relative items-center md:ms-3 h-full-90 w-full-25 sm2:h-2 sm2:w-full-90">
+          <div class="w-full h-full-95 sm2:w-full-85 sm2:h-full-85 sm2:mt-3  relative z-1">
             <div
-              class="w-full-100 h-full relative rounded-sm-1 m-0 px-2 py-2 bg-main-400 z-1 flex flex-col gap-2"
+              class="w-full-100 h-full relative rounded-sm-1 m-0 px-2 py-2 bg-main-400 z-1 flex flex-col md:justify-around gap-2"
             >
               <h2 class="w-full ms-2 font-bold text-white text-sm">
                 راه ارتباطی :
               </h2>
               <div class="w-full flex justify-between gap-2">
                 <button
-                  class="w-full-50 bg-gray-600 text-white text-center rounded-sm-m-1 h-0.25 text-sm-1"
+                  class="w-full-50 bg-gray-600 text-white text-center rounded-sm-1 sm2:rounded-sm-m-1 h-0.4 sm2:h-0.25 text-sm-1"
                 >
                   ارسال ایمیل
                 </button>
                 <button
-                  class="w-full-50 bg-gray-600 text-white text-center h-0.25 rounded-sm-m-1 text-sm-1"
+                  class="w-full-50 bg-gray-600 text-white text-center h-0.4 sm2:h-0.25 rounded-sm-1 sm2:rounded-sm-m-1 text-sm-1"
                 >
                   تماس با ما
                 </button>
@@ -502,35 +502,38 @@
             </div>
             <div
               class="w-full-20 absolute bottom-2 h-full-85 rounded-sm-m-1 pe-1 z-0 bg-gray-800 flex flex-col text-end justify-center align-end text-white gap-1"
-              style="left: -30px;top:10px"
+              style="left: -30px; top: 10px"
             >
-              <a class="flex justify-end text-start w-full" href=""><svg
-                width="18"
-                height="18"
-                viewBox="0 0 15 15"
-                fill="white"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <use href="#telegram-icon"></use>
-              </svg></a>
-              <a class="flex justify-end text-start w-full" href=""><svg
-                width="18"
-                height="18"
-                viewBox="0 0 15 15"
-                fill="white"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <use href="#linkdin-icon"></use>
-              </svg></a>
-              <a class="flex justify-end text-start w-full" href=""><svg
-                width="18"
-                height="18"
-                viewBox="0 0 15 15"
-                fill="white"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <use href="#instagram-icon"></use>
-              </svg></a>
+              <a class="flex justify-end text-start w-full" href=""
+                ><svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 15 15"
+                  fill="white"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#telegram-icon"></use></svg>
+                </a>
+              <a class="flex justify-end text-start w-full" href=""
+                ><svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 15 15"
+                  fill="white"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#linkdin-icon"></use></svg>
+            </a>
+              <a class="flex justify-end text-start w-full" href=""
+                ><svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 15 15"
+                  fill="white"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#instagram-icon"></use></svg>
+            </a>
               <a class="flex justify-end text-start w-full" href="">
                 <svg
                   width="18"
@@ -546,7 +549,13 @@
           </div>
         </div>
 
-        <hr class="bg-white w-full-90 my-1" />
+        <hr class="bg-white w-full-90 my-1 md:hidden" />
+        <div class=" text-white w-full-20  h-full-80 flex flex-col justify-center sm2:hidden relative">
+          <a href="" class="shortcut"> آموزش JavaScript</a>
+          <a href="" class="shortcut"> آموزش HTML & CSS</a>
+          <a href="" class="shortcut"> دانلود کتاب آموزش طراحی وب</a>
+          <a href="" class="shortcut"> گیم لب( تحلیل  بازی های برتر )</a>
+        </div>
         <div
           class="flex flex-col justify-center text-sm-1 item-start text-white"
         >
