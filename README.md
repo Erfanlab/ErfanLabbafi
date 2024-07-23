@@ -9,5 +9,5 @@
 
 New version portfolio + New design
 
-<img src="https://static-00.iconduck.com/assets.00/javascript-js-icon-512x512-q3igwln6.png" loading="lazy" class="icon loaded">
+    <img width="32" height="32" src="https://static-00.iconduck.com/assets.00/javascript-js-icon-512x512-q3igwln6.png">
 </h1>
