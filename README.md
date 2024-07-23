@@ -8,6 +8,7 @@
 <h1>
 
 New version portfolio + New design
+<hr style="margin-top:20px">
 <img width="32" height="32" src="https://static-00.iconduck.com/assets.00/javascript-js-icon-512x512-q3igwln6.png">
 
 </h1>
