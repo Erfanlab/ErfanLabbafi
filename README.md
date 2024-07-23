@@ -6,8 +6,8 @@
 <img src="https://github.com/Erfanlab/ErfanLabbafi-portfolio-version-2/blob/main/assest/src/images/Cover.png?raw=true">
 <hr>
 <h1>
-
 New version portfolio + New design
+</h1>
 <hr style="margin-top:20px">
 <div style="dispaly:flex;gap:10px">
 <img width="48" height="48" src="https://static-00.iconduck.com/assets.00/javascript-js-icon-512x512-q3igwln6.png">
@@ -18,4 +18,3 @@ New version portfolio + New design
 <img width="32" height="48" src="https://static-00.iconduck.com/assets.00/figma-icon-342x512-hiy4fg6k.png">
 
 </div>
-</h1>
