@@ -9,6 +9,13 @@
 
 New version portfolio + New design
 <hr style="margin-top:20px">
+<div style="dispaly:flex;gap:10px">
 <img width="32" height="32" src="https://static-00.iconduck.com/assets.00/javascript-js-icon-512x512-q3igwln6.png">
+<img width="32" height="32" src="https://static-00.iconduck.com/assets.00/file-type-html-icon-451x512-vzyw6pa7.png">
+<img width="32" height="32" src="https://static-00.iconduck.com/assets.00/file-type-light-json-icon-510x512-hjq8qfvb.png">
+<img width="32" height="32" src="https://static-00.iconduck.com/assets.00/file-type-sass-icon-512x384-8hcyam61.png">
+<img width="32" height="32" src="https://static-00.iconduck.com/assets.00/tailwind-css-icon-512x307-1v56l8ed.png">
+<img width="32" height="32" src="https://static-00.iconduck.com/assets.00/figma-icon-342x512-hiy4fg6k.png">
 
+</div>
 </h1>
