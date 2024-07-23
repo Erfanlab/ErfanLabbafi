@@ -282,7 +282,7 @@
   </head>
   <body class="flex justify-between w-full flex-col items-center">
     <nav
-      class="w-full bg-main-500 font-yekan text-3xl h-0.7 flex overflow-hidden items-center justify-between fixed mb-50"
+      class="w-full bg-main-500 font-yekan text-3xl h-0.65 flex overflow-hidden items-center justify-between fixed mb-50"
       dir="rtl"
     >
       <div class="sm2:flex md:hidden">
@@ -297,7 +297,7 @@
           <use href="#hambergerMenu"></use>
         </svg>
       </div>
-      <div class="flex gap-9 ms-5 sm2:hidden">
+      <div class="flex gap-9 ms-5 sm2:hidden text-md">
         <a href="">
           <div class="text-3xl font-yekanBold text-white link1">خانه</div>
         </a>
@@ -312,14 +312,14 @@
         </a>
       </div>
       <div class="flex gap-8">
-        <div class="flex bg-white rounded-lg h-0.45 w-2 sm2:hidden">
+        <div class="flex bg-white rounded-sm-m-1 h-0.4 w-2 sm2:hidden">
           <div
-            class="bg-second-100 font-yekanBold text-white rounded-lg w-0.75 h-0.75 flex justify-center items-center"
+            class="bg-second-100 font-yekanBold text-white rounded-sm-m-1 w-0.75 h-0.75 text-sm flex justify-center items-center"
           >
             تاریک
           </div>
           <div
-            class="bg-white font-yekanBold text-black rounded-lg w-0.75 flex justify-center items-center h-0.45"
+            class="bg-white font-yekanBold text-black rounded-sm-m-1 w-0.75 h-0.4 text-sm flex justify-center items-center"
           >
             روشن
           </div>
@@ -476,8 +476,8 @@
       <div
         class="w-full-95 h-full-85 sm2:h-full-95 rounded-sm bg-gray-700 opacity-80 items-center md:px-2 flex justify-between sm2:justify-center sm2:flex-col"
       >
-        <div class="flex justify-between relative items-center md:ms-3 h-full-90 w-full-25 sm2:h-2 sm2:w-full-90">
-          <div class="w-full h-full-95 sm2:w-full-85 sm2:h-full-85 sm2:mt-3  relative z-1">
+        <div class="flex justify-between relative items-center sm2:justify-center sm2:me-4.5 sm2:py-0.5 sm2:my-2 md:ms-3 h-full-90 w-full-25 sm2:h-2 sm2:w-full-90">
+          <div class="w-full h-full-95 sm2:w-full-75 sm2:h-full-85 sm2:mt-3  relative z-1">
             <div
               class="w-full-100 h-full relative rounded-sm-1 m-0 px-2 py-2 bg-main-400 z-1 flex flex-col md:justify-around gap-2"
             >
@@ -501,11 +501,11 @@
               </div>
             </div>
             <div
-              class="w-full-20 absolute bottom-2 h-full-85 rounded-sm-m-1 pe-1 z-0 bg-gray-800 flex flex-col text-end justify-center align-end text-white gap-1"
-              style="left: -30px; top: 10px"
+              class="w-full-20 top-t-10 md:w-full-40 sm2:left-f-30 md:left-f-40 absolute bottom-2 h-full-85 rounded-sm-m-1 pe-1 z-0 bg-gray-800 flex flex-col text-end justify-center align-end text-white gap-1 md:py-2"
             >
-              <a class="flex justify-end text-start w-full" href=""
+              <a class="flex justify-end text-start w-full relative h-0.4" href=""
                 ><svg
+                class=" absolute sm md:w-0.25 md:h-0.25"
                   width="18"
                   height="18"
                   viewBox="0 0 15 15"
@@ -514,9 +514,10 @@
                 >
                   <use href="#telegram-icon"></use></svg>
                 </a>
-              <a class="flex justify-end text-start w-full" href=""
+              <a class="flex justify-end text-start w-full relative h-0.4" href=""
                 ><svg
-                  width="18"
+                class=" absolute sm md:w-0.25 md:h-0.25"
+                width="18"
                   height="18"
                   viewBox="0 0 15 15"
                   fill="white"
@@ -524,8 +525,9 @@
                 >
                   <use href="#linkdin-icon"></use></svg>
             </a>
-              <a class="flex justify-end text-start w-full" href=""
+              <a class="flex justify-end text-start relative h-0.4" href=""
                 ><svg
+                class=" absolute sm md:w-0.25 md:h-0.25"
                   width="18"
                   height="18"
                   viewBox="0 0 15 15"
@@ -534,8 +536,9 @@
                 >
                   <use href="#instagram-icon"></use></svg>
             </a>
-              <a class="flex justify-end text-start w-full" href="">
+              <a class="flex justify-end text-start w-full relative h-0.4 " href="">
                 <svg
+                class=" absolute sm md:w-0.25 md:h-0.25"
                   width="18"
                   height="18"
                   viewBox="0 0 15 15"
@@ -550,20 +553,20 @@
         </div>
 
         <hr class="bg-white w-full-90 my-1 md:hidden" />
-        <div class=" text-white w-full-20  h-full-80 flex flex-col justify-center sm2:hidden relative">
+        <div class=" text-white w-full-15 sm2:w-full-20  h-full-80 flex flex-col justify-center sm2:hidden relative gap-3">
           <a href="" class="shortcut"> آموزش JavaScript</a>
           <a href="" class="shortcut"> آموزش HTML & CSS</a>
           <a href="" class="shortcut"> دانلود کتاب آموزش طراحی وب</a>
           <a href="" class="shortcut"> گیم لب( تحلیل  بازی های برتر )</a>
         </div>
         <div
-          class="flex flex-col justify-center text-sm-1 item-start text-white"
+          class=" md:w-full-40  md:h-full md:mt-3 md:gap-0.5 sm2:w-full-85 sm2:mb-3 flex flex-col justify-center text-sm-1 item-start text-white"
         >
           <span class="font-bold text-16 mb-2">ارسال پبام به پشتیبانی :</span>
           <div class="gap-2 w-full flex items-center">
             <label class="w-1 flex justify-end" for="deccription">موضوع:</label>
             <input
-              class="rounded-sm-m-1 flex justify-start p-1 w-full-50 h-full-70"
+              class="rounded-sm-m-0 sm2:rounded-sm-m-1  flex justify-start p-1 w-full-50 h-full-70"
               type="text"
               name="deccription"
             />
@@ -573,17 +576,17 @@
               >نام نام خانوادگی:</label
             >
             <input
-              class="rounded-sm-m-1 w-full-50 h-full-70 p-1"
+              class="rounded-sm-m-0 sm2:rounded-sm-m-1 w-full-50 h-full-70 p-1"
               type="text"
               name="nameUser"
             />
           </div>
           <div class="w-full flex gap-2 items-center mt-1">
             <label class="w-1 flex justify-end" for="textUser">توضیحات:</label>
-            <input class="rounded-sm-m-1 p-1" type="text" name="textUser" />
+            <input class="rounded-sm-m-0 sm2:rounded-sm-m-1 md:w-full-75 py-1" type="text" name="textUser" />
           </div>
           <div
-            class="py-3 flex justify-end text-sm-1 text-center items-center gap-2 w-full"
+            class="md:p-2 md:mb-2 sm2:py-3 sm2:mt-0  flex justify-end text-sm-1 text-center items-center gap-2 w-full "
           >
             <button class="w-0.75 h-0.3 bg-red-red rounded-sm-m-1">
               انصراف
