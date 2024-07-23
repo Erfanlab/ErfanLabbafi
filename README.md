@@ -15,7 +15,7 @@ New version portfolio + New design
 <img width="48" height="48" src="https://static-00.iconduck.com/assets.00/file-type-light-json-icon-510x512-hjq8qfvb.png">
 <img width="48" height="48" src="https://static-00.iconduck.com/assets.00/file-type-sass-icon-512x384-8hcyam61.png">
 <img width="48" height="48" src="https://static-00.iconduck.com/assets.00/tailwind-css-icon-512x307-1v56l8ed.png">
-<img width="48" height="48" src="https://static-00.iconduck.com/assets.00/figma-icon-342x512-hiy4fg6k.png">
+<img width="32" height="48" src="https://static-00.iconduck.com/assets.00/figma-icon-342x512-hiy4fg6k.png">
 
 </div>
 </h1>
