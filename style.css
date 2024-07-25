@@ -1,2 +1,84 @@
+@charset "UTF-8";
 @import "/output.css";
-@import "/assest/src/fonts/yekan-bakh/font-ykan.css";/*# sourceMappingURL=style.css.map */
+@import "/assest/src/fonts/yekan-bakh/font-ykan.css";
+.checkbox-wrapper-36 *,
+.checkbox-wrapper-36 *::before,
+.checkbox-wrapper-36 *::after {
+  box-sizing: border-box;
+}
+
+.checkbox-wrapper-36 label {
+  background: white;
+  border-radius: 8px;
+  display: flex;
+  height: 45px;
+  position: relative;
+  transition: transform 300ms ease, box-shadow 300ms ease;
+  width: 140px;
+}
+
+.checkbox-wrapper-36 input {
+  display: none;
+}
+
+.checkbox-wrapper-36 label:after {
+  content: "روشن";
+  width: 50%;
+  padding: 5px;
+  height: 100%;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: move-left-36 400ms;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  outline: none;
+  position: absolute;
+  transition: background-color 100ms linear;
+  left: 8px;
+}
+
+.checkbox-wrapper-36 label:active {
+  transform: scale(1.15);
+}
+
+.checkbox-wrapper-36 input:checked + label:after {
+  content: "تاریک";
+  color: white;
+  font-size: 24px;
+  padding: 5px;
+  animation: move-right-36 400ms;
+  background-color: #148F77;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 72px;
+  bottom: 0;
+}
+
+@keyframes move-right-36 {
+  0% {
+    left: 8px;
+  }
+  75% {
+    left: 78px;
+  }
+  100% {
+    left: 72px;
+  }
+}
+@keyframes move-left-36 {
+  0% {
+    left: 72px;
+  }
+  75% {
+    left: 2px;
+  }
+  100% {
+    left: 8px;
+  }
+}/*# sourceMappingURL=style.css.map */
