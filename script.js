@@ -1,10 +1,17 @@
-
+// Dark mode 
 function myFunction() {
-        const checkBox = document.getElementById("toggle-36");
-        let users = document.getElementById('navbars');
-        let iconname = document.getElementById('iconweb');
-        console.log(checkBox)
-console.log(users)
-checkBox.checked  ? users.classList.remove('bg-main-500') + users.classList.add('bg-gray-800') + iconname.classList.remove('bg-black','text-white') + iconname.classList.add('bg-white','text-black')  : users.classList.remove('bg-gray-800') + users.classList.add('bg-main-500') + iconname.classList.remove('bg-white','text-black') + iconname.classList.add('bg-black','text-white') ;
+  const checkBox = document.getElementById("toggle-36");
+  checkBox.checked
+    ? dark() : light();
+};
+function light() {
+  const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML=css;
+addCSS(".bg-main-500{background-color: #148F77 !important;}"),
+addCSS(".bg-gray-500{background-color: #424242 !important;}")
+};
+function dark() {
+  const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML=css;
+addCSS(".bg-main-500{background-color: #424242 !important;}"),
+addCSS(".bg-gray-500{background-color: #148F77 !important;}")
+};
 
-      };
