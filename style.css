@@ -5,6 +5,7 @@
 .checkbox-wrapper-36 *::before,
 .checkbox-wrapper-36 *::after {
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .checkbox-wrapper-36 label {
