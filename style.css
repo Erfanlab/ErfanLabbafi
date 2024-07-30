@@ -82,4 +82,28 @@
   100% {
     left: 8px;
   }
+}
+.scrollbar::-webkit-scrollbar {
+  width: 7px;
+  height: 5px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #2d2d2d;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #148f77;
+}
+
+.hoverlight:hover {
+  background-color: #1D1D1D !important;
+}
+
+.hoverdark:hover {
+  background-color: #0E6C5A !important;
 }/*# sourceMappingURL=style.css.map */
