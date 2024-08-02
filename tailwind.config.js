@@ -107,6 +107,7 @@ module.exports = {
       7: "600px",
       8: "700px",
       full: "100%",
+      "full-50": "50%",
       "full-70": "70%",
       "full-80": "80%",
       "full-85": "85%",
@@ -169,11 +170,13 @@ module.exports = {
       "sm-1": "10px",
       sm: "20px",
       md: "30px",
+      minicircle: '150px'
     },
     fontSize: {
       "sm-1": "14px",
       16: "16px",
       sm: "20px",
+      sm50: "25px",
       md: "30px",
     },
     inset: {
