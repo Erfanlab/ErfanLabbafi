@@ -281,10 +281,7 @@
     <link rel="stylesheet" href="style.css" />
     <script src="/script.js" defer></script>
   </head>
-  <body
-    class="flex justify-between w-full flex-col items-center scrollbar"
-    id="body"
-  >
+  <body class="flex justify-between flex-col items-center scrollbar" id="body">
     <nav
       class="w-full bg-main-500 font-yekan text-3xl h-0.65 flex overflow-hidden items-center justify-between fixed"
       id="navbars"
@@ -339,14 +336,14 @@
       </div>
     </nav>
     <main
-      class="flex overflow-hidden w-full h-full-85 flex-col mt-10 font-yekan"
+      class="flex overflow-hidden w-full flex-col my-10 relative -z-1 font-yekan gap-9"
       dir="ltr"
     >
       <div id="aboutme" class="flex flex-col w-full mx-10">
         <div class="text-start font-yekanbold text-md">About Me:</div>
         <div class="bg-main-500 w-full-80 h-4 rounded-md flex">
           <div
-            class=" flex-shrink-0 mr-5 text-white w-full-35 h-full content-between rounded-l-md rounded-r-minicircle bg-gray-500 flex flex-col justify-center items-center"
+            class="flex-shrink-0 mr-5 text-white w-full-35 h-full content-between rounded-l-md rounded-r-minicircle bg-gray-500 flex flex-col justify-center items-center"
           >
             <div
               class="flex flex-col justify-center items-center mb-5 h-full-50"
@@ -365,7 +362,9 @@
               <div>location : Iran,Tehran</div>
             </div>
           </div>
-          <div class="text-sm-1 w-full-50 justify-center text-cente content-center text-white">
+          <div
+            class="text-sm-1 w-full-50 justify-center text-cente content-center text-white"
+          >
             Fueled by a constant desire for continuous learning, I actively seek
             new opportunities in the JavaScript,Web-Developer to contribute to
             personal and professional growth by expanding knowledge and
@@ -377,21 +376,54 @@
             , Unity3D, Python ) successfully applying them to complete projects.
             My ability to collaborate effectively in a team and communicate with
             colleagues is among the qualities that define my character.
-            <div class=" w-full">
-              <div class=" bg-gray-500 w-0.6 rounded-sm-m-1 flex justify-center text-center p-2">More...</div>
-              
-              
+            <div class="w-full">
+              <form action="./page2.html">
+                <button
+                  class="bg-gray-500 w-0.6 rounded-sm-m-1 flex justify-center text-center p-2"
+                >
+                  More...
+                </button>
+              </form>
             </div>
+          </div>
+        </div>
+      </div>
+      <div class="justify-center items-center flex flex-col">
+        <div class="w-full-60 text-md font-bold">My Skills:</div>
 
+        <div class="flex w-full-50 gap-3 justify-center items-center">
+          <div class="flex flex-col w-full gap-2">
+            <div class="bg-main-500 w-5 h-2 rounded-md flex">
+              <div class=" w-full-30">
+
+                <img
+                class=" -z-1"
+                  src="/assest/src/images/png/Webdeveloper.png"
+                  alt="webdeveloper"
+                />
+                <div
+                  class=" w-full rounded-tl-md rounded-bl-md bg-main-500 z-1"
+                ></div> 
+              </div>
+              <div class="w-full-60 flex p-1 items-center justify-center">
+                Participating in the Quera levelup course and passing 9hours of
+                training and workshop and doing a project and getting a passing
+                grade in the course
+              </div>
+            </div>
+            <div class="bg-main-500 w-5 h-2 rounded-md"></div>
+          </div>
+          <div class="flex flex-col w-full gap-2 justify-center">
+            <div class="bg-main-500 w-5 h-2 rounded-md"></div>
+            <div class="bg-main-500 w-5 h-2 rounded-md"></div>
           </div>
         </div>
       </div>
       <div></div>
       <div></div>
-      <div></div>
     </main>
     <footer
-      class="w-full bg-gray-100 rounded-t-sm flex justify-center items-center h-3 sm2:h-4 font-yekan"
+      class="w-full bg-gray-100 rounded-t-sm flex justify-center items-center h-3 sm2:h-4 font-yekan mt-5 -z-1"
     >
       <div
         class="w-full-95 h-full-85 sm2:h-full-95 rounded-sm bg-main-500 opacity-80 items-center md:px-2 flex justify-between sm2:justify-center sm2:flex-col"
