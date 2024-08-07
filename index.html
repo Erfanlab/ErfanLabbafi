@@ -281,7 +281,7 @@
     <link rel="stylesheet" href="style.css" />
     <script src="/script.js" defer></script>
   </head>
-  <body class="flex justify-between flex-col items-center scrollbar" id="body">
+  <header class="w-full overflow-hidden font-yekan z-40">
     <nav
       class="w-full bg-main-500 font-yekan text-3xl h-0.65 flex overflow-hidden items-center justify-between fixed"
       id="navbars"
@@ -299,29 +299,29 @@
           <use href="#hambergerMenu"></use>
         </svg>
       </div>
-      <div class="flex gap-9 ms-5 sm2:hidden text-md">
-        <a href="">
-          <div class="text-3xl font-yekanBold text-white link1">خانه</div>
+      <div class="flex gap-9 ms-5 sm2:hidden text-md menuList h-full" id="menuList">
+        <a href="/index.html">
+          <div class="text-3xl font-yekanBold text-white link1 flex items-center">خانه</div>
         </a>
-        <a href="">
-          <div class="text-3xl font-yekanBold text-white link2">دانلودبازی</div>
+        <a href="/assest/component/gamepage.html">
+          <div class="text-3xl font-yekanBold text-white link2 flex items-center ">دانلودبازی</div>
         </a>
-        <a href="">
-          <div class="text-3xl font-yekanBold text-white link3">مهارت ها</div>
+        <a href="/assest/component/skills.html">
+          <div class="text-3xl font-yekanBold text-white link3 flex items-center">مهارت ها</div>
         </a>
-        <a href="">
-          <div class="text-3xl font-yekanBold link4 text-white">درباره من</div>
+        <a href="/assest/component/aboutme.html">
+          <div class=" relative text-3xl font-yekanBold link4 text-white flex items-center">درباره من</div>
         </a>
       </div>
       <div class="flex gap-8">
         <div class="checkbox-wrapper-36 font-yekanBold sm2:hidden">
-          <input id="toggle-36" type="checkbox" onclick="myFunction()" />
+          <input id="toggle-36" type="checkbox" class="toggleMod" onclick="myFunction()" />
           <label for="toggle-36"></label>
         </div>
         <div>
           <a href="#">
             <svg
-              class="text-white bg-black h-0.45 w-0.45 rounded-sm-1 p-2 me-3"
+              class="text-white bg-black h-0.45 w-0.45 rounded-sm-1 p-2 me-3 icons"
               id="iconweb"
               width="20"
               height="20"
@@ -335,11 +335,13 @@
         </div>
       </div>
     </nav>
+  </header>
+  <body class="flex justify-between flex-col items-center scrollbar font-yekan">
     <main
-      class="flex overflow-hidden w-full flex-col my-10 relative -z-1 font-yekan gap-9"
+      class="flex overflow-hidden w-full flex-col my-10 relative font-yekan gap-9"
       dir="ltr"
     >
-      <div id="aboutme" class="flex flex-col w-full mx-10">
+      <div id="aboutme" class="flex flex-col w-full mx-10 mb-10">
         <div class="text-start font-yekanbold text-md">About Me:</div>
         <div class="bg-main-500 w-full-80 h-4 rounded-md flex">
           <div
@@ -377,7 +379,7 @@
             My ability to collaborate effectively in a team and communicate with
             colleagues is among the qualities that define my character.
             <div class="w-full">
-              <form action="./page2.html">
+              <form action="./assest/component/page2.html">
                 <button
                   class="bg-gray-500 w-0.6 rounded-sm-m-1 flex justify-center text-center p-2"
                 >
@@ -388,37 +390,163 @@
           </div>
         </div>
       </div>
-      <div class="justify-center items-center flex flex-col">
-        <div class="w-full-60 text-md font-bold">My Skills:</div>
+      <div id="skills" class="justify-center items-center flex flex-col">
+        <div class="w-full ps-10 text-start text-md font-yekanBold mb-4">
+          My Skills:
+        </div>
+        <div class="flex gap-7 justify-center items-center">
+          <div class="flex flex-col w-full gap-4">
+            <div class="bg-gray-400 w-5 h-2 rounded-md flex">
+              <div class="w-full-30 relative h-full">
+                <a
+                  class="w-1 bottom-f-0 absolute z-20"
+                  href="/assest/src/images/png/web lisence.png"
+                >
+                  <img
+                  id="imagelisence"
 
-        <div class="flex w-full-50 gap-3 justify-center items-center">
-          <div class="flex flex-col w-full gap-2">
-            <div class="bg-main-500 w-5 h-2 rounded-md flex">
-              <div class=" w-full-30">
-
+                    class="absolute -bottom-f-10 -left-f-25 shadow-md h-0.45"
+                    src="/assest/src/images/png/web lisence.png"
+                    alt="imagelisence"
+                  />
+                </a>
+                <div
+                  class="flex justify-center items-center text-white w-full h-full rounded-tl-md rounded-bl-md z-10 absolute"
+                >
+                  Web-Developer
+                </div>
+                <div
+                  class="w-full h-full rounded-tl-md rounded-bl-md bg-main-500 z-1 absolute opacity-60"
+                ></div>
                 <img
-                class=" -z-1"
+                  class="-z-1 h-full rounded-tl-md rounded-bl-md"
                   src="/assest/src/images/png/Webdeveloper.png"
                   alt="webdeveloper"
                 />
-                <div
-                  class=" w-full rounded-tl-md rounded-bl-md bg-main-500 z-1"
-                ></div> 
               </div>
-              <div class="w-full-60 flex p-1 items-center justify-center">
+              <div
+                class="w-full-70 text-white text-center flex ps-2 p-3 items-center justify-center"
+              >
                 Participating in the Quera levelup course and passing 9hours of
                 training and workshop and doing a project and getting a passing
                 grade in the course
               </div>
             </div>
-            <div class="bg-main-500 w-5 h-2 rounded-md"></div>
+            <div class="bg-gray-400 w-5 h-2 rounded-md flex">
+              <div class="w-full-30 relative h-full">
+                <a
+                  class="w-1 bottom-f-0 absolute z-20"
+
+                  href="/assest/src/images/png/web lisence.png"
+                >
+                  <img
+                  id="imagelisence"
+
+                  class="absolute -bottom-f-10 -left-f-25 shadow-md h-0.45"
+                    src="/assest/src/images/png/web lisence.png"
+                    alt="imagelisence"
+                  />
+                </a>
+                <div
+                  class="flex justify-center items-center text-white w-full h-full rounded-tl-md rounded-bl-md z-10 absolute"
+                >
+                  Python
+                </div>
+                <div
+                  class="w-full h-full rounded-tl-md rounded-bl-md bg-main-500 z-1 absolute opacity-50"
+                ></div>
+                <img
+                  class="-z-1 h-full rounded-tl-md rounded-bl-md"
+                  src="/assest/src/images/png/python.png"
+                  alt="python"
+                />
+              </div>
+              <div
+                class="w-full-70 text-white text-center flex ps-2 p-3 items-center justify-center"
+              >
+                The participant in the home school course has successfully
+                completed 57 hours of training. Hours of training and workshops
+                and doing projects and getting a passing grade in the coursef
+              </div>
+            </div>
           </div>
-          <div class="flex flex-col w-full gap-2 justify-center">
-            <div class="bg-main-500 w-5 h-2 rounded-md"></div>
-            <div class="bg-main-500 w-5 h-2 rounded-md"></div>
+          <div class="flex flex-col w-full gap-4 justify-center">
+            <div class="bg-gray-400 w-5 h-2 rounded-md flex">
+              <div class="w-full-30 relative h-full">
+                <a
+                  class="w-1 bottom-f-0 absolute z-20"
+                  href="/assest/src/images/png/web lisence.png"
+                >
+                  <img
+                  id="imagelisence"
+
+                  class="absolute -bottom-f-10 -left-f-25 shadow-md h-0.45"
+                    src="/assest/src/images/png/web lisence.png"
+                    alt="imagelisence"
+                  />
+                </a>
+                <div
+                  class="flex justify-center items-center text-white w-full h-full rounded-tl-md rounded-bl-md z-10 absolute"
+                >
+                  Unity3D
+                </div>
+                <div
+                  class="w-full h-full rounded-tl-md rounded-bl-md bg-main-500 z-1 absolute opacity-60"
+                ></div>
+                <img
+                  class="-z-1 h-full rounded-tl-md rounded-bl-md"
+                  src="/assest/src/images/png/unity3d.png"
+                  alt="unity-3d"
+                />
+              </div>
+              <div
+                class="w-full-70 text-white text-center flex ps-2 p-3 items-center justify-center"
+              >
+                Participating in the Quera levelup course and passing 9hours of
+                training and workshop and doing a project and getting a passing
+                grade in the course
+              </div>
+            </div>
+            <div class="bg-gray-400 w-5 h-2 rounded-md flex">
+              <div class="w-full-30 relative h-full">
+                <a
+                  class="w-1 bottom-f-0 absolute z-20"
+                  href="/assest/src/images/png/web lisence.png"
+                >
+                  <img
+                    class="absolute -bottom-f-10 -left-f-25 shadow-md h-0.45"
+                    id="imagelisence"
+                    src="/assest/src/images/png/web lisence.png"
+                    alt="imagelisence"
+                  />
+                </a>
+                <div
+                  class="flex justify-center items-center text-white w-full h-full rounded-tl-md rounded-bl-md z-10 absolute"
+                >
+                  Excel
+                </div>
+
+                <div
+                  class="w-full h-full rounded-tl-md rounded-bl-md bg-main-500 z-1 absolute opacity-50"
+                ></div>
+                <img
+                  class="-z-1 h-full rounded-tl-md rounded-bl-md"
+                  src="/assest/src/images/png/excel.png"
+                  alt="excel"
+                />
+              </div>
+              <div
+                class="w-full-70 text-white text-center flex ps-2 p-3 items-center justify-center"
+              >
+                Participating in the Quera levelup course and passing 9hours of
+                training and workshop and doing a project and getting a passing
+                grade in the course
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
       <div></div>
       <div></div>
     </main>

@@ -40,7 +40,7 @@
   outline: none;
   position: absolute;
   transition: background-color 100ms linear;
-  left: 8px;
+  left: 0;
 }
 
 .checkbox-wrapper-36 label:active {
@@ -61,6 +61,16 @@
   align-items: center;
   left: 72px;
   bottom: 0;
+}
+.toggleMod {
+  ~ label {
+    transition: all 0.1s ease-in-out;
+    &:hover {
+      transition: all 0.1s ease-in-out;
+      box-shadow: #1d1d1d 1px 1px 5px;
+      background-color: #2d2d2d;
+    }
+  }
 }
 
 @keyframes move-right-36 {
@@ -104,14 +114,71 @@
   background: #148f77;
 }
 
-.hoverlight{
-&:hover{
-    background-color: #1D1D1D !important;
-  
+.hoverlight {
+  &:hover {
+    background-color: #1d1d1d !important;
+  }
 }
+.hoverdark {
+  &:hover {
+    background-color: #0e6c5a !important;
+  }
 }
-.hoverdark{
-  &:hover{
-    background-color: #0E6C5A !important;
+
+#imagelisence {
+  transition: all 0.2s ease;
+  &:hover {
+    transition: all 0.2s ease;
+    height: 60px;
+    filter: contrast(100%);
+    left: 15px;
+  }
+}
+
+.icons {
+  transition: all 0.1s ease-in-out;
+  &:hover {
+    transition: all 0.1s ease-in-out;
+    width: 100px;
+
+    background-image: url(/assest/src/images/clip-snow-gif-background-8.gif);
+  }
+}
+.menuList {
+  a {
+    div {
+      position: relative;
+      height: 100%;
+      padding: 0;
+      border-radius: 15px 15px 0 0;
+      padding: 0 10px;
+      transition: all 0.1s ease-in-out;
+
+      &:hover {
+        margin-top: 5px;
+        transition: all 0.1s ease-in-out;
+        background-image: url(/assest/src/images/clip-snow-gif-background-8.gif);
+        &::before {
+          position: absolute;
+          transition: all 0.1ms ease-in-out;
+          bottom: 0;
+          right: -6px;
+          content: "";
+          height: 22px;
+          width: 10px;
+          border-radius: 0 0 0 10px;
+        }
+        &:after {
+          position: absolute;
+          transition: all 0.1ms ease-in-out;
+          bottom: -1px;
+          left: -7px;
+          content: "";
+          height: 22px;
+          width: 10px;
+          border-radius: 0 0 10px 0;
+        }
+      }
+    }
   }
 }
