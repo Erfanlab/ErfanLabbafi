@@ -299,23 +299,47 @@
           <use href="#hambergerMenu"></use>
         </svg>
       </div>
-      <div class="flex gap-9 ms-5 sm2:hidden text-md menuList h-full" id="menuList">
+      <div
+        class="flex gap-9 ms-5 sm2:hidden text-md menuList h-full"
+        id="menuList"
+      >
         <a href="/index.html">
-          <div class="text-3xl font-yekanBold text-white link1 flex items-center">خانه</div>
+          <div
+            class="text-3xl font-yekanBold text-white link1 flex items-center"
+          >
+            خانه
+          </div>
         </a>
         <a href="/assest/component/gamepage.html">
-          <div class="text-3xl font-yekanBold text-white link2 flex items-center ">دانلودبازی</div>
+          <div
+            class="text-3xl font-yekanBold text-white link2 flex items-center"
+          >
+            دانلودبازی
+          </div>
         </a>
         <a href="/assest/component/skills.html">
-          <div class="text-3xl font-yekanBold text-white link3 flex items-center">مهارت ها</div>
+          <div
+            class="text-3xl font-yekanBold text-white link3 flex items-center"
+          >
+            مهارت ها
+          </div>
         </a>
         <a href="/assest/component/aboutme.html">
-          <div class=" relative text-3xl font-yekanBold link4 text-white flex items-center">درباره من</div>
+          <div
+            class="relative text-3xl font-yekanBold link4 text-white flex items-center"
+          >
+            درباره من
+          </div>
         </a>
       </div>
       <div class="flex gap-8">
         <div class="checkbox-wrapper-36 font-yekanBold sm2:hidden">
-          <input id="toggle-36" type="checkbox" class="toggleMod" onclick="myFunction()" />
+          <input
+            id="toggle-36"
+            type="checkbox"
+            class="toggleMod"
+            onclick="myFunction()"
+          />
           <label for="toggle-36"></label>
         </div>
         <div>
@@ -338,34 +362,38 @@
   </header>
   <body class="flex justify-between flex-col items-center scrollbar font-yekan">
     <main
-      class="flex overflow-hidden w-full flex-col my-10 relative font-yekan gap-9"
+      class="flex overflow-hidden w-full flex-col my-10 relative font-yekan"
       dir="ltr"
     >
-      <div id="aboutme" class="flex flex-col w-full mx-10 mb-10">
-        <div class="text-start font-yekanbold text-md">About Me:</div>
-        <div class="bg-main-500 w-full-80 h-4 rounded-md flex">
+      <div
+        class="text-start font-yekanbold text-md flex justify-center w-full-50"
+      >
+        About Me:
+      </div>
+      <div id="aboutme" class="flex flex-col w-full items-center mb-10">
+        <div class="bg-main-500 w-full-60 h-3.5 rounded-md flex">
           <div
-            class="flex-shrink-0 mr-5 text-white w-full-35 h-full content-between rounded-l-md rounded-r-minicircle bg-gray-500 flex flex-col justify-center items-center"
+            class="flex-shrink-0 mr-5 text-white w-full-32 h-full content-between rounded-l-md rounded-r-minicircle bg-gray-500 hover flex flex-col justify-center items-start"
           >
-            <div
-              class="flex flex-col justify-center items-center mb-5 h-full-50"
-            >
-              <img
-                width="120"
-                height="100"
-                src="/assest/src/images/png/personMain.png"
-                alt="imagePerson"
-              />
-
-              <div>MohammadErfanLabbafi</div>
-            </div>
-            <div class="h-full-50 text-sm50 font-bold">
-              <div>Front-End Developer</div>
-              <div>location : Iran,Tehran</div>
+            <div class="w-full">
+              <div
+                class="flex flex-col justify-center items-center w-full-90 mb-4"
+              >
+                <img
+                  src="/assest/src/images/png/personMain.png"
+                  alt="imagePerson"
+                  id="imagePerson"
+                />
+                <div>MohammadErfanLabbafi</div>
+              </div>
+              <div class="h-full text-center w-full-90 text-sm font-bold">
+                <div>Front-End Developer</div>
+                <div>location : Iran,Tehran</div>
+              </div>
             </div>
           </div>
           <div
-            class="text-sm-1 w-full-50 justify-center text-cente content-center text-white"
+            class="w-full h-full justify-center content-center text-white text-16 p-3"
           >
             Fueled by a constant desire for continuous learning, I actively seek
             new opportunities in the JavaScript,Web-Developer to contribute to
@@ -378,20 +406,21 @@
             , Unity3D, Python ) successfully applying them to complete projects.
             My ability to collaborate effectively in a team and communicate with
             colleagues is among the qualities that define my character.
-            <div class="w-full">
-              <form action="./assest/component/page2.html">
-                <button
-                  class="bg-gray-500 w-0.6 rounded-sm-m-1 flex justify-center text-center p-2"
-                >
-                  More...
-                </button>
-              </form>
-            </div>
+            <form
+              class="w-full flex justify-end m-0"
+              action="./assest/component/page2.html"
+            >
+              <button class="bg-gray-500 w-0.6 rounded-sm-m-1 p-1">
+                More...
+              </button>
+            </form>
+            <div class="w-full"></div>
           </div>
         </div>
       </div>
+      <!-- finish about -->
       <div id="skills" class="justify-center items-center flex flex-col">
-        <div class="w-full ps-10 text-start text-md font-yekanBold mb-4">
+        <div class="w-full-60 justify-start text-md font-yekanBold">
           My Skills:
         </div>
         <div class="flex gap-7 justify-center items-center">
@@ -403,8 +432,7 @@
                   href="/assest/src/images/png/web lisence.png"
                 >
                   <img
-                  id="imagelisence"
-
+                    id="imagelisence"
                     class="absolute -bottom-f-10 -left-f-25 shadow-md h-0.45"
                     src="/assest/src/images/png/web lisence.png"
                     alt="imagelisence"
@@ -416,7 +444,7 @@
                   Web-Developer
                 </div>
                 <div
-                  class="w-full h-full rounded-tl-md rounded-bl-md bg-main-500 z-1 absolute opacity-60"
+                  class="w-full h-full rounded-tl-md rounded-bl-md bg-main-500 z-1 absolute opacity-60 card-skills"
                 ></div>
                 <img
                   class="-z-1 h-full rounded-tl-md rounded-bl-md"
@@ -436,13 +464,11 @@
               <div class="w-full-30 relative h-full">
                 <a
                   class="w-1 bottom-f-0 absolute z-20"
-
                   href="/assest/src/images/png/web lisence.png"
                 >
                   <img
-                  id="imagelisence"
-
-                  class="absolute -bottom-f-10 -left-f-25 shadow-md h-0.45"
+                    id="imagelisence"
+                    class="absolute -bottom-f-10 -left-f-25 shadow-md h-0.45"
                     src="/assest/src/images/png/web lisence.png"
                     alt="imagelisence"
                   />
@@ -478,9 +504,8 @@
                   href="/assest/src/images/png/web lisence.png"
                 >
                   <img
-                  id="imagelisence"
-
-                  class="absolute -bottom-f-10 -left-f-25 shadow-md h-0.45"
+                    id="imagelisence"
+                    class="absolute -bottom-f-10 -left-f-25 shadow-md h-0.45"
                     src="/assest/src/images/png/web lisence.png"
                     alt="imagelisence"
                   />
@@ -545,13 +570,21 @@
             </div>
           </div>
         </div>
+        <div class="w-full-55 flex justify-end mt-4 text-center">
+          <button
+            class="bg-main-500 px-4 py-2 rounded-sm-1 text-white font-yekanBold"
+          >
+            See More...
+          </button>
+        </div>
       </div>
+      <!-- finish skills -->
 
       <div></div>
       <div></div>
     </main>
     <footer
-      class="w-full bg-gray-100 rounded-t-sm flex justify-center items-center h-3 sm2:h-4 font-yekan mt-5 -z-1"
+      class="w-full bg-gray-100 rounded-t-sm flex justify-center items-center h-3 sm2:h-4 font-yekan mt-5 z-1"
     >
       <div
         class="w-full-95 h-full-85 sm2:h-full-95 rounded-sm bg-main-500 opacity-80 items-center md:px-2 flex justify-between sm2:justify-center sm2:flex-col"
@@ -601,7 +634,7 @@
                 class="flex justify-end text-start w-full relative h-0.4"
                 href=""
                 ><svg
-                  class="absolute sm md:w-0.25 md:h-0.25"
+                  class="absolute sm md:w-0.25 md:h-0.25 socials"
                   width="18"
                   height="18"
                   viewBox="0 0 15 15"
@@ -615,7 +648,7 @@
                 class="flex justify-end text-start w-full relative h-0.4"
                 href=""
                 ><svg
-                  class="absolute sm md:w-0.25 md:h-0.25"
+                  class="absolute sm md:w-0.25 md:h-0.25 socials"
                   width="18"
                   height="18"
                   viewBox="0 0 15 15"
@@ -627,7 +660,7 @@
               </a>
               <a class="flex justify-end text-start relative h-0.4" href=""
                 ><svg
-                  class="absolute sm md:w-0.25 md:h-0.25"
+                  class="absolute sm md:w-0.25 md:h-0.25 socials"
                   width="18"
                   height="18"
                   viewBox="0 0 15 15"
@@ -642,7 +675,7 @@
                 href=""
               >
                 <svg
-                  class="absolute sm md:w-0.25 md:h-0.25"
+                  class="absolute sm md:w-0.25 md:h-0.25 socials"
                   width="18"
                   height="18"
                   viewBox="0 0 15 15"
@@ -658,12 +691,23 @@
 
         <hr class="bg-white w-full-90 my-1 md:hidden" />
         <div
-          class="text-white w-full-15 sm2:w-full-20 h-full-80 flex flex-col justify-center sm2:hidden relative gap-3"
+          class="text-white sm2:w-full-20 h-full-80 flex flex-col justify-center sm2:hidden relative gap-3"
         >
-          <a href="" class="shortcut"> آموزش JavaScript</a>
-          <a href="" class="shortcut"> آموزش HTML & CSS</a>
-          <a href="" class="shortcut"> دانلود کتاب آموزش طراحی وب</a>
-          <a href="" class="shortcut"> گیم لب( تحلیل بازی های برتر )</a>
+          <a  href="" class=" shortcut"> آموزش JavaScript
+            <div class="bottomhover bg-white rounded-sm "></div>
+          </a>
+          <a href="" class="shortcut"> آموزش HTML & CSS
+            <div class="bottomhover bg-white rounded-sm "></div>
+
+          </a>
+          <a href="" class="shortcut"> دانلود کتاب آموزش طراحی وب
+            <div class="bottomhover bg-white rounded-sm "></div>
+
+          </a>
+          <a href="" class="shortcut"> گیم لب( تحلیل بازی های برتر )
+            <div class="bottomhover bg-white rounded-sm "></div>
+
+          </a>
         </div>
         <div
           class="md:w-full-40 md:h-full md:mt-3 md:gap-0.5 sm2:w-full-85 sm2:mb-3 flex flex-col justify-center text-sm-1 item-start text-white"
@@ -698,10 +742,10 @@
           <div
             class="md:p-2 md:mb-2 sm2:py-3 sm2:mt-0 flex justify-end text-sm-1 text-center items-center gap-2 w-full"
           >
-            <button class="w-0.75 h-0.3 bg-red-red rounded-sm-m-1">
+            <button class="w-0.75 h-0.3 bg-red-red rounded-sm-m-1 cancelfooter">
               انصراف
             </button>
-            <button class="w-0.75 h-0.3 bg-green-green rounded-sm-m-1">
+            <button class="w-0.75 h-0.3 bg-green-green rounded-sm-m-1 acseptfooter">
               ارسال
             </button>
           </div>

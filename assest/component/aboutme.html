@@ -1,19 +1,554 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my account</title>
-</head>
-<body>
-    
-<h1>about me</h1>
-<form action="../../index.html">
-    <button class=" bg-gray-500 w-0.6 rounded-sm-m-1 flex justify-center text-center p-2">More...</button>
+<svg class="hidden">
+  <symbol
+    width="25"
+    height="20"
+    viewBox="0 0 25 20"
+    fill="currentColor"
+    xmlns="http://www.w3.org/2000/svg"
+    id="logoWeb"
+  >
+    <path
+      d="M8.2963 0H13.2105C13.6465 0 14 0.353459 14 0.789474V0.789474C14 1.22549 13.6465 1.57895 13.2105 1.57895H9.06751C8.61309 1.57895 8.2158 1.88534 8.10034 2.32485L6.55169 8.21959C6.38513 8.85358 6.86337 9.47368 7.51887 9.47368H12.4815C13.0338 9.47368 13.4815 9.9214 13.4815 10.4737V10.5789C13.4815 11.1312 13.0338 11.5789 12.4815 11.5789H7.07142C6.58167 11.5789 6.16398 11.9336 6.08463 12.4169L5.37599 16.7327C5.27602 17.3415 5.74581 17.8947 6.36277 17.8947H13C13.5523 17.8947 14 18.3425 14 18.8947V19C14 19.5523 13.5523 20 13 20H1.19782C0.574044 20 0.102504 19.4352 0.213888 18.8214L3.48055 0.821435C3.56687 0.345796 3.98107 0 4.46448 0H8.2963Z"
+      fill="currentColor"
+    />
+    <path
+      d="M18.2963 0H13.7808C13.3219 0 12.9219 0.312297 12.8106 0.757464L12.3001 2.79944C12.105 3.57992 12.1608 4.40204 12.4596 5.149V5.149C12.8077 6.01928 13.4631 6.73155 14.3015 7.15073L14.6587 7.32937C15.5327 7.76636 16.5178 7.93079 17.4864 7.80133L18.7678 7.63005C19.2876 7.56057 19.6324 7.05582 19.5081 6.54638V6.54638C19.409 6.14003 19.0382 5.85912 18.6202 5.8737L16.3458 5.95305C15.5026 5.98247 14.6983 5.5977 14.1921 4.92273L14.0333 4.71112C13.694 4.25862 13.5634 3.683 13.6743 3.12837V3.12837C13.8629 2.1856 14.6991 1.51285 15.6603 1.53051L17.627 1.56665C18.0214 1.5739 18.3614 1.84601 18.4549 2.22925L20.1006 8.97518C20.177 9.28812 20.0979 9.61867 19.8882 9.86318L13.2409 17.6138C13.0855 17.7951 13 18.026 13 18.2648V19.6625C13 19.8489 13.1511 20 13.3375 20V20C13.4402 20 13.5373 19.9533 13.6013 19.873L18.7966 13.3649C19.3405 12.6835 20.4352 12.9761 20.5667 13.838L21.1852 17.8947L21.3726 19.1479C21.4458 19.6376 21.8664 20 22.3616 20H23.2676C23.9027 20 24.377 19.4155 24.2461 18.794L22.5 10.5L20.1829 0.76838C20.0757 0.317912 19.6732 0 19.2101 0H18.2963Z"
+      fill="currentColor"
+    />
+  </symbol>
+  <symbol
+    id="hambergerMenu"
+    width="42"
+    height="28"
+    viewBox="0 0 42 28"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g filter="url(#filter0_d_624_88)">
+      <path
+        d="M6 1.66663H36"
+        stroke="white"
+        stroke-width="3"
+        stroke-miterlimit="11.4737"
+        stroke-linecap="round"
+      />
+    </g>
+    <g filter="url(#filter1_d_624_88)">
+      <path
+        d="M6 10H36"
+        stroke="white"
+        stroke-width="3"
+        stroke-miterlimit="11.4737"
+        stroke-linecap="round"
+      />
+    </g>
+    <g filter="url(#filter2_d_624_88)">
+      <path
+        d="M6 18.3334H36"
+        stroke="white"
+        stroke-width="3"
+        stroke-miterlimit="11.4737"
+        stroke-linecap="round"
+      />
+    </g>
+    <defs>
+      <filter
+        id="filter0_d_624_88"
+        x="0.5"
+        y="0.166626"
+        width="41"
+        height="11"
+        filterUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB"
+      >
+        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        />
+        <feOffset dy="4" />
+        <feGaussianBlur stdDeviation="2" />
+        <feComposite in2="hardAlpha" operator="out" />
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+        />
+        <feBlend
+          mode="normal"
+          in2="BackgroundImageFix"
+          result="effect1_dropShadow_624_88"
+        />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="effect1_dropShadow_624_88"
+          result="shape"
+        />
+      </filter>
+      <filter
+        id="filter1_d_624_88"
+        x="0.5"
+        y="8.5"
+        width="41"
+        height="11"
+        filterUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB"
+      >
+        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        />
+        <feOffset dy="4" />
+        <feGaussianBlur stdDeviation="2" />
+        <feComposite in2="hardAlpha" operator="out" />
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+        />
+        <feBlend
+          mode="normal"
+          in2="BackgroundImageFix"
+          result="effect1_dropShadow_624_88"
+        />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="effect1_dropShadow_624_88"
+          result="shape"
+        />
+      </filter>
+      <filter
+        id="filter2_d_624_88"
+        x="0.5"
+        y="16.8334"
+        width="41"
+        height="11"
+        filterUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB"
+      >
+        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        />
+        <feOffset dy="4" />
+        <feGaussianBlur stdDeviation="2" />
+        <feComposite in2="hardAlpha" operator="out" />
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+        />
+        <feBlend
+          mode="normal"
+          in2="BackgroundImageFix"
+          result="effect1_dropShadow_624_88"
+        />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="effect1_dropShadow_624_88"
+          result="shape"
+        />
+      </filter>
+    </defs>
+  </symbol>
+  <symbol
+    id="github-icon"
+    width="15"
+    height="15"
+    viewBox="0 0 15 15"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    >
+    <path
+      d="M7.53843 14.1162C11.0787 14.1162 13.9487 11.1821 13.9487 7.56283C13.9487 3.94348 11.0787 1.00943 7.53843 1.00943C3.99814 1.00943 1.12817 3.94348 1.12817 7.56283C1.12817 11.1821 3.99814 14.1162 7.53843 14.1162Z"
+      stroke="white"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M9.03428 12.1501V10.9292C9.05031 10.7264 9.02281 10.5225 8.95351 10.331C8.88428 10.1396 8.77486 9.96502 8.63261 9.81895C9.97447 9.67006 11.3847 9.16381 11.3847 6.84115C11.3846 6.24719 11.1551 5.67603 10.7437 5.24586C10.9385 4.72625 10.9247 4.15189 10.7052 3.6421C10.7052 3.6421 10.2009 3.49322 9.03428 4.2717C8.05479 4.00745 7.02236 4.00745 6.04285 4.2717C4.87618 3.49322 4.3719 3.6421 4.3719 3.6421C4.1524 4.15189 4.13863 4.72625 4.33344 5.24586C3.91897 5.67922 3.68922 6.25554 3.69242 6.85386C3.69242 9.15955 5.10267 9.6658 6.44454 9.83166C6.30396 9.9763 6.19552 10.1488 6.12631 10.3379C6.05709 10.527 6.02866 10.7284 6.04285 10.9292V12.1501"
+      stroke="white"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M6.04224 11.2995C4.76019 11.7134 3.69181 11.2995 3.05078 10.0233"
+      stroke="white"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </symbol>
+  <symbol
+    id="instagram-icon"
+    width="15"
+    height="15"
+    viewBox="0 0 15 15"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    >
+    <path
+      d="M7.53846 10.6308C9.11189 10.6308 10.3875 9.32673 10.3875 7.71816C10.3875 6.10957 9.11189 4.80554 7.53846 4.80554C5.96499 4.80554 4.68945 6.10957 4.68945 7.71816C4.68945 9.32673 5.96499 10.6308 7.53846 10.6308Z"
+      stroke="white"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M1.12817 10.6307V4.80548C1.12817 2.79474 2.7226 1.1647 4.68943 1.1647H10.3874C12.3542 1.1647 13.9487 2.79474 13.9487 4.80548V10.6307C13.9487 12.6414 12.3542 14.2715 10.3874 14.2715H4.68943C2.7226 14.2715 1.12817 12.6414 1.12817 10.6307Z"
+      stroke="white"
+    />
+    <path
+      d="M11.4551 3.72395L11.4618 3.7124"
+      stroke="white"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </symbol>
+  <symbol
+    id="linkdin-icon"
+    width="15"
+    height="15"
+    viewBox="0 0 15 15"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    >
+    <path
+      d="M13.9487 4.96081V10.7861C13.9487 12.7968 12.3542 14.4268 10.3874 14.4268H4.68943C2.7226 14.4268 1.12817 12.7968 1.12817 10.7861V4.96081C1.12817 2.95007 2.7226 1.32004 4.68943 1.32004H10.3874C12.3542 1.32004 13.9487 2.95007 13.9487 4.96081Z"
+      stroke="white"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M3.97754 11.5142V8.96569V6.41714"
+      stroke="white"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M6.82642 11.5142V9.14773M6.82642 9.14773V6.41714M6.82642 9.14773C6.82642 6.41714 11.0999 6.41714 11.0999 9.14773V11.5142"
+      stroke="white"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M3.97754 4.24339L3.98428 4.23184"
+      stroke="white"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </symbol>
+  <symbol
+    id="telegram-icon"
+    width="15"
+    height="16"
+    viewBox="0 0 15 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    >
+    <path
+      d="M11.3841 5.40744L3.05078 8.35647L5.9354 9.33948M11.3841 5.40744L5.9354 9.33948M11.3841 5.40744L8.82001 12.2885L5.9354 9.33948"
+      stroke="white"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M7.53843 14.5822C11.0787 14.5822 13.9487 11.6481 13.9487 8.02877C13.9487 4.40943 11.0787 1.47537 7.53843 1.47537C3.99814 1.47537 1.12817 4.40943 1.12817 8.02877C1.12817 11.6481 3.99814 14.5822 7.53843 14.5822Z"
+      stroke="white"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </symbol>
+</svg>
 
-  </form>
+<!doctype html>
+<html lang="fa-IR" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Erfanlabbafi</title>
+    <link rel="icon" href="../../assest/src/images/Svg/logoWeb.svg" />
+    <link rel="stylesheet" href="../../style.css" />
+    <script src="../../script.js" defer></script>
+  </head>
+
+    <header class="w-full overflow-hidden font-yekan z-40">
+      <nav
+        class="w-full bg-main-500 font-yekan text-3xl h-0.65 flex overflow-hidden items-center justify-between fixed"
+        id="navbars"
+        dir="rtl"
+      >
+        <div class="sm2:flex md:hidden">
+          <svg
+            width="42"
+            height="28"
+            viewBox="0 0 42 28"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            >
+            <use href="#hambergerMenu"></use>
+          </svg>
+        </div>
+        <div
+          class="flex gap-9 ms-5 sm2:hidden text-md menuList h-full"
+          id="menuList"
+        >
+          <a href="/index.html">
+            <div
+              class="text-3xl font-yekanBold text-white link1 flex items-center"
+            >
+              خانه
+            </div>
+          </a>
+          <a href="/assest/component/gamepage.html">
+            <div
+              class="text-3xl font-yekanBold text-white link2 flex items-center"
+            >
+              دانلودبازی
+            </div>
+          </a>
+          <a href="/assest/component/skills.html">
+            <div
+              class="text-3xl font-yekanBold text-white link3 flex items-center"
+            >
+              مهارت ها
+            </div>
+          </a>
+          <a href="/assest/component/aboutme.html">
+            <div
+              class="relative text-3xl font-yekanBold link4 text-white flex items-center"
+            >
+              درباره من
+            </div>
+          </a>
+        </div>
+        <div class="flex gap-8">
+          <div class="checkbox-wrapper-36 font-yekanBold sm2:hidden">
+            <input
+              id="toggle-36"
+              type="checkbox"
+              class="toggleMod"
+              onclick="myFunction()"
+            />
+            <label for="toggle-36"></label>
+          </div>
+          <div>
+            <a href="#">
+              <svg
+                class="text-white bg-black h-0.45 w-0.45 rounded-sm-1 p-2 me-3 icons"
+                id="iconweb"
+                width="20"
+                height="20"
+                viewBox="0 0 25 20"
+                fill="#148F77"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use href="#logoWeb"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>    
+
+
+<body class="flex justify-between flex-col items-center scrollbar font-yekan">
+
+  <main
+  class="flex overflow-hidden w-full flex-col my-10 relative font-yekan"
+  dir="ltr"
+>
+
+    <form action="../../index.html">
+      <button class=" bg-gray-500 w-0.6 rounded-sm-m-1 flex justify-center text-center p-2">More...</button>
   
+    </form>
+  </main>
 
 
+
+  <footer
+    class="w-full bg-gray-100 rounded-t-sm flex justify-center items-center h-3 sm2:h-4 font-yekan mt-5 z-1"
+  >
+    <div
+      class="w-full-95 h-full-85 sm2:h-full-95 rounded-sm bg-main-500 opacity-80 items-center md:px-2 flex justify-between sm2:justify-center sm2:flex-col"
+    >
+      <div
+        class="flex justify-between relative items-center sm2:justify-center sm2:me-4.5 sm2:py-0.5 sm2:my-2 md:ms-3 h-full-90 w-full-25 sm2:h-2 sm2:w-full-90"
+      >
+        <div
+          class="w-full h-full-95 sm2:w-full-75 sm2:h-full-85 sm2:mt-3 relative z-1"
+        >
+          <div
+            class="w-full-100 h-full relative rounded-sm-1 m-0 px-2 py-2 bg-gray-500 z-1 flex flex-col md:justify-around gap-2"
+          >
+            <h2 class="w-full ms-2 font-bold text-white text-sm">
+              راه ارتباطی :
+            </h2>
+            <div class="w-full flex justify-between gap-2">
+              <a
+                class="w-full-50 bg-main-500 text-white text-center rounded-sm-1 sm2:rounded-sm-m-1 h-0.4 sm2:h-0.25 text-sm-1"
+                href="mailto:erfanlabbafi@gmail.com"
+              >
+                <button
+                  class="w-full bg-main-500 text-white text-center rounded-sm-1 sm2:rounded-sm-m-1 h-0.4 sm2:h-0.25 text-sm-1 hoverlight"
+                >
+                  ارسال ایمیل
+                </button>
+              </a>
+              <a
+                class="w-full-50 bg-main-500 text-white text-center h-0.4 sm2:h-0.25 rounded-sm-1 sm2:rounded-sm-m-1 text-sm-1"
+                href="tel:0989919295106"
+              >
+                <button
+                  class="w-full bg-main-500 text-white text-center h-0.4 sm2:h-0.25 rounded-sm-1 sm2:rounded-sm-m-1 text-sm-1"
+                >
+                  تماس با ما
+                </button>
+              </a>
+            </div>
+            <div class="font-sans text-white font-bold text-sm-1">
+              تهران،خیابان پیروزی...
+            </div>
+          </div>
+          <div
+            class="w-full-20 top-t-10 md:w-full-40 sm2:left-f-30 md:left-f-40 absolute bottom-2 h-full-85 rounded-sm-m-1 pe-1 z-0 bg-gray-800 flex flex-col text-end justify-center align-end text-white gap-1 md:py-2"
+          >
+            <a
+              class="flex justify-end text-start w-full relative h-0.4"
+              href=""
+              ><svg
+                class="absolute sm md:w-0.25 md:h-0.25 socials"
+                width="18"
+                height="18"
+                viewBox="0 0 15 15"
+                fill="white"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use href="#telegram-icon"></use>
+              </svg>
+            </a>
+            <a
+              class="flex justify-end text-start w-full relative h-0.4"
+              href=""
+              ><svg
+                class="absolute sm md:w-0.25 md:h-0.25 socials"
+                width="18"
+                height="18"
+                viewBox="0 0 15 15"
+                fill="white"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use href="#linkdin-icon"></use>
+              </svg>
+            </a>
+            <a class="flex justify-end text-start relative h-0.4" href=""
+              ><svg
+                class="absolute sm md:w-0.25 md:h-0.25 socials"
+                width="18"
+                height="18"
+                viewBox="0 0 15 15"
+                fill="white"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use href="#instagram-icon"></use>
+              </svg>
+            </a>
+            <a
+              class="flex justify-end text-start w-full relative h-0.4"
+              href=""
+            >
+              <svg
+                class="absolute sm md:w-0.25 md:h-0.25 socials"
+                width="18"
+                height="18"
+                viewBox="0 0 15 15"
+                fill="white"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use href="#github-icon"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <hr class="bg-white w-full-90 my-1 md:hidden" />
+      <div
+        class="text-white sm2:w-full-20 h-full-80 flex flex-col justify-center sm2:hidden relative gap-3"
+      >
+        <a  href="" class=" shortcut"> آموزش JavaScript
+          <div class="bottomhover bg-white rounded-sm "></div>
+        </a>
+        <a href="" class="shortcut"> آموزش HTML & CSS
+          <div class="bottomhover bg-white rounded-sm "></div>
+
+        </a>
+        <a href="" class="shortcut"> دانلود کتاب آموزش طراحی وب
+          <div class="bottomhover bg-white rounded-sm "></div>
+
+        </a>
+        <a href="" class="shortcut"> گیم لب( تحلیل بازی های برتر )
+          <div class="bottomhover bg-white rounded-sm "></div>
+
+        </a>
+      </div>
+      <div
+        class="md:w-full-40 md:h-full md:mt-3 md:gap-0.5 sm2:w-full-85 sm2:mb-3 flex flex-col justify-center text-sm-1 item-start text-white"
+      >
+        <span class="font-bold text-16 mb-2">ارسال پبام به پشتیبانی :</span>
+        <div class="gap-2 w-full flex items-center">
+          <label class="w-1 flex justify-end" for="deccription">موضوع:</label>
+          <input
+            class="rounded-sm-m-0 sm2:rounded-sm-m-1 flex justify-start p-1 w-full-50 h-full-70"
+            type="text"
+            name="deccription"
+          />
+        </div>
+        <div class="gap-2 w-full flex items-center">
+          <label class="w-1 flex justify-end" for="nameUser"
+            >نام نام خانوادگی:</label
+          >
+          <input
+            class="rounded-sm-m-0 sm2:rounded-sm-m-1 w-full-50 h-full-70 p-1"
+            type="text"
+            name="nameUser"
+          />
+        </div>
+        <div class="w-full flex gap-2 items-center mt-1">
+          <label class="w-1 flex justify-end" for="textUser">توضیحات:</label>
+          <input
+            class="rounded-sm-m-0 sm2:rounded-sm-m-1 md:w-full-75 py-1"
+            type="text"
+            name="textUser"
+          />
+        </div>
+        <div
+          class="md:p-2 md:mb-2 sm2:py-3 sm2:mt-0 flex justify-end text-sm-1 text-center items-center gap-2 w-full"
+        >
+          <button class="w-0.75 h-0.3 bg-red-red rounded-sm-m-1 cancelfooter">
+            انصراف
+          </button>
+          <button class="w-0.75 h-0.3 bg-green-green rounded-sm-m-1 acseptfooter">
+            ارسال
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
+
+
+
 </html>

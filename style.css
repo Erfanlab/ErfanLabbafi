@@ -168,4 +168,66 @@
   height: 22px;
   width: 10px;
   border-radius: 0 0 10px 0;
+}
+
+.hover {
+  transition: all 0.2s ease-in-out;
+}
+.hover:hover {
+  transition: all 0.2s ease-in-out;
+  background-image: url(/assest/src/images/clip-snow-gif-background-8.gif);
+}
+
+#imagePerson {
+  width: 90px;
+  transition: all 0.1s ease-in-out;
+  background-image: none;
+}
+#imagePerson:hover {
+  transition: all 0.1s ease-in-out;
+  width: 110px;
+  background-image: url(/assest/src/images/clip-snow-gif-background-8.gif);
+}
+
+.shortcut:hover .bottomhover {
+  width: 100%;
+  height: 2px;
+  transition: all 0.2s ease-in-out;
+}
+
+.shortcut:not(:hover) .bottomhover {
+  width: 0;
+  height: 2px;
+  transition: all 0.2s ease-in-out;
+}
+
+.socials {
+  transition: all 0.2s ease-in-out;
+  left: 0;
+}
+.socials:hover {
+  width: 35px;
+  height: 35px;
+  transition: all 0.2s ease-in-out;
+  left: -20px;
+}
+
+.acseptfooter {
+  transition: all 0.1s ease-in-out;
+  box-shadow: none;
+}
+.acseptfooter:hover {
+  transition: all 0.1s ease-in-out;
+  border: 1px solid #1d1d1d;
+  box-shadow: #1d1d1d 0 0 8px;
+}
+
+.cancelfooter {
+  box-shadow: none;
+  transition: all 0.1s ease-in-out;
+}
+.cancelfooter:hover {
+  transition: all 0.1s ease-in-out;
+  border: 1px solid #1d1d1d;
+  box-shadow: #1d1d1d 0 0 8px;
 }/*# sourceMappingURL=style.css.map */
