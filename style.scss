@@ -114,11 +114,6 @@
   background: #148f77;
 }
 
-.hoverlight {
-  &:hover {
-    background-color: #1d1d1d !important;
-  }
-}
 .hoverdark {
   &:hover {
     background-color: #0e6c5a !important;
@@ -247,4 +242,29 @@
     border: 1px solid #1d1d1d;
     box-shadow: #1d1d1d 0 0 8px;
   }
+}
+.nameJob {
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    box-shadow: #1d1d1d 0 0 8px;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+    opacity: 100;
+  }
+}
+.nameJob:hover {
+  transition: all 0.2s ease-in-out;
+  background-image: url(/assest/src/images/clip-snow-gif-background-8.gif);
+
+  .mofidIcons {
+    transition: all 0.2s ease-in-out;
+    display: flex;
+  }
+}
+.mofidIcons{
+  display: none;
+  transition: all 0.2s ease-in-out;
+
 }
