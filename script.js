@@ -34,7 +34,11 @@ function light() {
     ),
     addCSS(
       ".menuList{a{div{&:hover{background-color:#424242 !important;&::before{box-shadow: inset 4px -6px 0 -1px #424242 !important;}&::after{box-shadow: inset -3px -7px 0 -1px #424242 !important}  }}}}} ",
-    );
+    )
+    addCSS(
+      ".bg-lightmod{background-color: #fff !important;transition: all 0.1s ease-in-out !important ;color: #111 !important}"
+    )
+    ;
   hoverlight();
 }
 function dark() {
@@ -49,7 +53,11 @@ function dark() {
     ),
     addCSS(
       ".menuList{a{div{&:hover{background-color:#148F77 !important;&::before{box-shadow: inset 4px -6px 0 -1px #148f77 !important;}&::after{box-shadow: inset -3px -7px 0 -1px #148f77 !important}  }}}}} ",
-    );
+    ),
+    addCSS(
+      ".bg-lightmod{background-color: #1D1D1D !important;transition: all 0.1s ease-in-out !important ;color: #fff !important}"
+    )
+    ;
 
   hoverdark();
 }

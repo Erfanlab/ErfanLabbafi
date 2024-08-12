@@ -554,10 +554,6 @@ video {
   --tw-contain-style:  ;
 }
 
-.visible {
-  visibility: visible;
-}
-
 .fixed {
   position: fixed;
 }
@@ -578,16 +574,16 @@ video {
   left: 25px;
 }
 
+.-right-f-75 {
+  right: 75px;
+}
+
 .bottom-f-0 {
   bottom: 0;
 }
 
 .top-t-10 {
   top: 10px;
-}
-
-.-right-f-75 {
-  right: 75px;
 }
 
 .-z-1 {
@@ -981,6 +977,11 @@ video {
 .bg-green-green {
   --tw-bg-opacity: 1;
   background-color: rgb(11 135 0 / var(--tw-bg-opacity));
+}
+
+.bg-lightmod {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-main-500 {
