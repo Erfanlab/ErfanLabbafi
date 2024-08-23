@@ -263,8 +263,18 @@
     display: flex;
   }
 }
-.mofidIcons{
+.mofidIcons {
   display: none;
   transition: all 0.2s ease-in-out;
+}
 
+.backs{
+background-image: linear-gradient(to right,hsl(0, 0%, 10%,100%) 30%,#108f76 70%,#108f76 50%
+
+);
+}
+#mygames {
+  img {
+    opacity: 80%;
+  }
 }
