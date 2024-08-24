@@ -39,6 +39,10 @@ function light() {
       ".bg-lightmod{background-color: #fff !important;transition: all 0.1s ease-in-out !important ;color: #111 !important}"
     )
     ;
+    addCSS(
+      ".text-lite{color: #fff !important;transition: all 0.1s ease-in-out !important ;color: #111 !important}"
+    )
+    ;
   hoverlight();
 }
 function dark() {
@@ -56,6 +60,10 @@ function dark() {
     ),
     addCSS(
       ".bg-lightmod{background-color: #1D1D1D !important;transition: all 0.1s ease-in-out !important ;color: #fff !important}"
+    )
+    ;
+    addCSS(
+      ".text-lite{color: #1D1D1D !important;transition: all 0.1s ease-in-out !important ;color: #fff !important}"
     )
     ;
 

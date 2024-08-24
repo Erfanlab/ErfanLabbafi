@@ -268,10 +268,30 @@
   transition: all 0.2s ease-in-out;
 }
 
-.backs{
-background-image: linear-gradient(to right,hsl(0, 0%, 10%,100%) 30%,#108f76 70%,#108f76 50%
-
-);
+.backs {
+  background: rgb(26, 26, 26);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(26, 26, 26, 0.6615896358543417) 42%,
+    rgba(16, 143, 118, 0.9360994397759104) 50%,
+    rgba(16, 143, 118, 1) 58%,
+    rgba(16, 143, 118, 1) 60%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(26, 26, 26, 0.6615896358543417) 42%,
+    rgba(16, 143, 118, 0.9360994397759104) 50%,
+    rgba(16, 143, 118, 1) 58%,
+    rgba(16, 143, 118, 1) 60%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(26, 26, 26, 0.6615896358543417) 42%,
+    rgba(16, 143, 118, 0.9360994397759104) 50%,
+    rgba(16, 143, 118, 1) 58%,
+    rgba(16, 143, 118, 1) 60%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a1a1a",endColorstr="#108f76",GradientType=1);
 }
 #mygames {
   img {

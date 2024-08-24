@@ -254,7 +254,9 @@
 }
 
 .backs {
-  background-image: linear-gradient(to right, hsl(0, 0%, 10%) 30%, #108f76 70%, #108f76 50%);
+  background: rgb(26, 26, 26);
+  background: linear-gradient(90deg, rgba(26, 26, 26, 0.6615896359) 42%, rgba(16, 143, 118, 0.9360994398) 50%, rgb(16, 143, 118) 58%, rgb(16, 143, 118) 60%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a1a1a",endColorstr="#108f76",GradientType=1);
 }
 
 #mygames img {
