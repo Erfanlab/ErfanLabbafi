@@ -1,11 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 
-
 const { space } = require("postcss/lib/list");
 
 /** @type {import('output.css').Config} */
 module.exports = {
-  content: ["index.html"],
+  content: [
+    'index.html',
+    './assest/component/aboutme.html',
+    './assest/component/skills.html',
+    './assest/component/gamepage.html',
+    './assest/component/page2.html',
+    ],
   theme: {
     screens: {
       sm: "480px",
@@ -25,7 +30,7 @@ module.exports = {
         200: "#41E4C4",
         300: "#1ED6B2",
         400: "#18AB8E",
-        500: '#148F77',
+        500: "#148F77",
         600: "#148871",
         700: "#14846E",
         800: "#0E6C5A",
@@ -101,6 +106,7 @@ module.exports = {
       0.7: "70px",
       1: "100px",
       2: "150px",
+      2.5:"200px",
       3: "250px",
       3.5: "300px",
       4: "350px",
@@ -109,6 +115,7 @@ module.exports = {
       7: "600px",
       8: "700px",
       full: "100%",
+      "full-45": "45%",
       "full-50": "50%",
       "full-70": "70%",
       "full-80": "80%",
@@ -143,6 +150,7 @@ module.exports = {
       "full-32": "32%",
       "full-35": "35%",
       "full-40": "40%",
+      "full-45": "45%",
       "full-50": "50%",
       "full-55": "55%",
       "full-60": "60%",
@@ -176,7 +184,7 @@ module.exports = {
       "sm-1": "10px",
       sm: "20px",
       md: "30px",
-      minicircle: '150px'
+      minicircle: "150px",
     },
     fontSize: {
       "sm-1": "14px",
