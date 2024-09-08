@@ -186,6 +186,7 @@ module.exports = {
       sm: "20px",
       md: "30px",
       minicircle: "150px",
+      circle: "360px",
     },
     fontSize: {
       "sm-1": "14px",

@@ -136,7 +136,6 @@
     transition: all 0.1s ease-in-out;
     width: 100px;
 
-    background-image: url(/assest/src/images/clip-snow-gif-background-8.gif);
   }
 }
 .menuList {
@@ -152,8 +151,7 @@
       &:hover {
         margin-top: 5px;
         transition: all 0.1s ease-in-out;
-        background-image: url(/assest/src/images/clip-snow-gif-background-8.gif);
-        &::before {
+            &::before {
           position: absolute;
           transition: all 0.1ms ease-in-out;
           bottom: 0;
@@ -183,7 +181,6 @@
   &:hover {
     transition: all 0.2s ease-in-out;
 
-    background-image: url(/assest/src/images/clip-snow-gif-background-8.gif);
   }
 }
 #imagePerson {
@@ -194,7 +191,6 @@
   &:hover {
     transition: all 0.1s ease-in-out;
     width: 110px;
-    background-image: url(/assest/src/images/clip-snow-gif-background-8.gif);
   }
 }
 
@@ -256,7 +252,6 @@
 }
 .nameJob:hover {
   transition: all 0.2s ease-in-out;
-  background-image: url(/assest/src/images/clip-snow-gif-background-8.gif);
 
   .mofidIcons {
     transition: all 0.2s ease-in-out;
@@ -349,4 +344,10 @@
       border-radius: 10px !important;
     }
   }
+}
+.gamebackground{
+  background-image: url(https://s31.picofile.com/file/8473072150/A_work_by_Mohammad_Irfan_Labafi.gif);
+  background-repeat: no-repeat;
+  filter: blur(70px);
+  background-size: cover;
 }
