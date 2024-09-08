@@ -90,6 +90,7 @@ module.exports = {
       8: "45px",
       9: "50px",
       50: "500px",
+      
     },
     height: {
       0: "0",

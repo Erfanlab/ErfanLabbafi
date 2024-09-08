@@ -323,6 +323,9 @@
 .cover {
   filter: opacity(60%) !important;
 }
+.noneCover {
+  filter: opacity(100%) !important;
+}
 .imgleft {
   top: 0;
   left: 20px;
@@ -330,4 +333,20 @@
 .imgright {
   bottom: 0;
   right: 20px;
+}
+.backImageAboutMe {
+  background-image: url(/assest/src/images/Svg/aboutme/personmain.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  div {
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      transition: all 0.2s ease-in-out;
+
+      font-size: 16px;
+      height: 100% !important;
+      opacity: 100% !important;
+      border-radius: 10px !important;
+    }
+  }
 }
