@@ -1,6 +1,11 @@
 @import "/output.css";
 @import "/assest/src/fonts/yekan-bakh/font-ykan.css";
 
+@media only screen and (min-width: 1700px) {
+  .padinline {
+    padding-inline: 180px !important;
+  }
+}
 .checkbox-wrapper-36 *,
 .checkbox-wrapper-36 *::before,
 .checkbox-wrapper-36 *::after {
@@ -135,7 +140,6 @@
   &:hover {
     transition: all 0.1s ease-in-out;
     width: 100px;
-
   }
 }
 .menuList {
@@ -151,7 +155,7 @@
       &:hover {
         margin-top: 5px;
         transition: all 0.1s ease-in-out;
-            &::before {
+        &::before {
           position: absolute;
           transition: all 0.1ms ease-in-out;
           bottom: 0;
@@ -180,7 +184,6 @@
 
   &:hover {
     transition: all 0.2s ease-in-out;
-
   }
 }
 #imagePerson {
@@ -345,9 +348,21 @@
     }
   }
 }
-.gamebackground{
+.gamebackground {
   background-image: url(https://s31.picofile.com/file/8473072150/A_work_by_Mohammad_Irfan_Labafi.gif);
   background-repeat: no-repeat;
   filter: blur(70px);
   background-size: cover;
+}
+.hoversm {
+  transition: all 0.1s ease-in-out !important;
+  &:hover {
+    transition: all 0.1s ease-in-out !important;
+    width: 67px !important;
+    height: 67px !important;
+    color: #ffffff69 !important;
+  }
+}
+.coursepointer {
+  cursor: pointer;
 }

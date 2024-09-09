@@ -450,16 +450,60 @@
     </nav>
   </header>
   <body class="flex justify-between flex-col items-center scrollbar font-yekan">
-    <main class="flex overflow-hidden w-full flex-col my-6 relative font-yekan">
-      <div class=" w-full h-6  flex justify-around items-center relative">
-        <div class=" gamebackground w-full h-full absolute opacity-90"></div>
-        <div class=" w-full-20  h-full-50 rounded-md flex justify-center z-20 items-center gap-5" >
-          <h2 class=" text-white font-yekanBold text-md">Overtaking</h2>
-          <img src="/assest/src/images/png/logogamelarg.png" alt="gamelogo" class=" h-full-50">
+    <main
+      class="flex overflow-hidden w-full flex-col justify-center items-center my-6 relative font-yekan"
+    >
+      <div class="w-full h-6 flex justify-around items-center relative">
+        <div class="gamebackground w-full h-full absolute opacity-90"></div>
+        <div
+          class="w-full-20 h-full-50 rounded-md flex justify-center z-20 items-center gap-5"
+        >
+          <h2 class="text-white font-yekanBold text-md">Overtaking</h2>
+          <img
+            src="/assest/src/images/png/logogamelarg.png"
+            alt="gamelogo"
+            class="h-full-50"
+          />
         </div>
-        <div class=" w-full-50  h-full-70 rounded-md shadow-md z-20" >
-          <img src="https://s31.picofile.com/file/8473072150/A_work_by_Mohammad_Irfan_Labafi.gif" alt="gametrailer" class="w-full  h-full rounded-md shadow-md">
+        <div
+          class="md:w-full-30 xl:w-full-100 h-full-70 rounded-md shadow-md z-20"
+        >
+          <img
+            src="https://s31.picofile.com/file/8473072150/A_work_by_Mohammad_Irfan_Labafi.gif"
+            alt="gametrailer"
+            class="w-full h-full rounded-md shadow-md"
+          />
         </div>
+      </div>
+      <div
+        class="w-full-50 rounded-sm p-2 h-3 bg-gray-500 mt-3 flex justify-around items-center text-white"
+        dir="ltr"
+      >
+        <div
+          class="w-full-30 rounded-md p-2 h-full-90 bg-main-500 text-center flex flex-col justify-center gap-4 flex-shrink-0"
+        >
+          <strong
+            >Overtaking video game made by Mohammad Irfan Labafi using Unity
+            game engine in 2015</strong
+          >
+          <a href="">
+            <button
+              class="text-sm bg-gray-500 w-full-60 h-0.4 rounded-sm font-yekanBold hoverdark text-center"
+            >
+              Download
+            </button>
+          </a>
+        </div>
+        <p class="p-3 font-yekan">
+          <b> Minimum system requirements: </b> <br />
+          CPU:Intel Core 2 Quad CPU Q6600 @ 2.40GHz (4 CPUs) / AMD Phenom 9850
+          Quad-Core Processor (4 CPUs) @ 2.5GHz<br />
+          RAM: 4 GB RAM GPU: NVIDIA 9800 GT 1GB / AMD HD 4870 1GB (DX 10, 10.1,
+          11) DX: 10 <br />
+          OS: Windows 10 64 Bit, Windows 8.1 64 Bit, Windows 8 64 Bit, Windows 7
+          64 Bit Service Pack 1 <br />
+          STO: 1GB available space <br />Sound: 100% DirectX 10 compatible
+        </p>
       </div>
     </main>
     <footer
@@ -511,7 +555,7 @@
             >
               <a
                 class="flex justify-end text-start w-full relative h-0.4"
-                href=""
+                href="https://t.me/Erfan_MFD"
                 ><svg
                   class="absolute sm md:w-0.25 md:h-0.25 socials"
                   width="18"
@@ -525,7 +569,7 @@
               </a>
               <a
                 class="flex justify-end text-start w-full relative h-0.4"
-                href=""
+                href="https://www.linkedin.com/in/mohammaderfan-labbafi-2b300b22a/"
                 ><svg
                   class="absolute sm md:w-0.25 md:h-0.25 socials"
                   width="18"
@@ -537,9 +581,11 @@
                   <use href="#linkdin-icon"></use>
                 </svg>
               </a>
-              <a class="flex justify-end text-start relative h-0.4" href=""
+              <a
+                class="flex justify-end text-start relative h-0.4"
+                onclick="alert('هنوز لینکی ثبت نشده')"
                 ><svg
-                  class="absolute sm md:w-0.25 md:h-0.25 socials"
+                  class="absolute sm md:w-0.25 md:h-0.25 socials coursepointer"
                   width="18"
                   height="18"
                   viewBox="0 0 15 15"
@@ -551,7 +597,7 @@
               </a>
               <a
                 class="flex justify-end text-start w-full relative h-0.4"
-                href=""
+                href="https://github.com/Erfanlab"
               >
                 <svg
                   class="absolute sm md:w-0.25 md:h-0.25 socials"
@@ -572,19 +618,22 @@
         <div
           class="text-white sm2:w-full-20 h-full-80 flex flex-col justify-center sm2:hidden relative gap-3"
         >
-          <a href="" class="shortcut">
+          <a href="https://javascript.info/" class="shortcut">
             آموزش JavaScript
             <div class="bottomhover bg-white rounded-sm"></div>
           </a>
-          <a href="" class="shortcut">
+          <a href="https://www.w3schools.com/css/" class="shortcut">
             آموزش HTML & CSS
             <div class="bottomhover bg-white rounded-sm"></div>
           </a>
-          <a href="" class="shortcut">
+          <a href="https://www.w3schools.com/html/" class="shortcut">
             دانلود کتاب آموزش طراحی وب
             <div class="bottomhover bg-white rounded-sm"></div>
           </a>
-          <a href="" class="shortcut">
+          <a
+            class="shortcut coursepointer"
+            onclick="alert('در حال بروزرسانی...')"
+          >
             گیم لب( تحلیل بازی های برتر )
             <div class="bottomhover bg-white rounded-sm"></div>
           </a>
@@ -596,7 +645,7 @@
           <div class="gap-2 w-full flex items-center">
             <label class="w-1 flex justify-end" for="deccription">موضوع:</label>
             <input
-              class="rounded-sm-m-0 sm2:rounded-sm-m-1 flex justify-start p-1 w-full-50 h-full-70"
+              class="rounded-sm-m-0 sm2:rounded-sm-m-1 flex justify-start p-1 w-full-50 h-full-70 text-black"
               type="text"
               name="deccription"
             />
@@ -606,7 +655,7 @@
               >نام نام خانوادگی:</label
             >
             <input
-              class="rounded-sm-m-0 sm2:rounded-sm-m-1 w-full-50 h-full-70 p-1"
+              class="rounded-sm-m-0 sm2:rounded-sm-m-1 w-full-50 h-full-70 p-1 text-black"
               type="text"
               name="nameUser"
             />
@@ -614,7 +663,7 @@
           <div class="w-full flex gap-2 items-center mt-1">
             <label class="w-1 flex justify-end" for="textUser">توضیحات:</label>
             <input
-              class="rounded-sm-m-0 sm2:rounded-sm-m-1 md:w-full-75 py-1"
+              class="rounded-sm-m-0 sm2:rounded-sm-m-1 md:w-full-75 py-1 text-black"
               type="text"
               name="textUser"
             />
