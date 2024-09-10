@@ -18,6 +18,7 @@ module.exports = {
       lg: "976px",
       xl: "1440px",
       sm2: { max: "767px" },
+      md2: { max: "975px" }
     },
 
     colors: {
@@ -116,6 +117,7 @@ module.exports = {
       7: "600px",
       8: "700px",
       full: "100%",
+      "full-30": "30%",
       "full-45": "45%",
       "full-50": "50%",
       "full-70": "70%",

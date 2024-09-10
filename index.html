@@ -371,14 +371,18 @@
       rel="stylesheet"
       href="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/style.css"
     />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
     <link
       rel="stylesheet"
       href="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/output.css"
     />
+    <!-- <link rel="stylesheet" href="/assest/src/fonts/yekan-bakh/font-ykan.css" /> -->
     <link
       rel="stylesheet"
       href="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/assest/src/fonts/yekan-bakh/font-ykan.css"
     />
+
+    <!-- <script src="/script.js" defer></script> -->
 
     <script
       src="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/script.js"
@@ -391,7 +395,7 @@
       id="navbars"
       dir="rtl"
     >
-      <div class="sm2:flex md:hidden">
+      <div class="sm2:flex lg:hidden">
         <svg
           width="42"
           height="28"
@@ -404,7 +408,7 @@
         </svg>
       </div>
       <div
-        class="flex gap-9 ms-5 sm2:hidden text-md menuList h-full"
+        class="flex gap-9 ms-5 md2:hidden text-md menuList h-full"
         id="menuList"
       >
         <a
@@ -445,7 +449,7 @@
         </a>
       </div>
       <div class="flex gap-8">
-        <div class="checkbox-wrapper-36 font-yekanBold sm2:hidden">
+        <div class="checkbox-wrapper-36 font-yekanBold md2:hidden">
           <input
             id="toggle-36"
             type="checkbox"
@@ -478,27 +482,41 @@
       dir="ltr"
     >
       <div
-        class="text-start font-yekanbold text-md flex justify-center w-full-50"
+        class="text-start font-yekanbold lg:text-md sm2:text-sm flex justify-center w-full-50"
       >
         About Me:
       </div>
       <div id="aboutme" class="flex flex-col w-full items-center mb-10">
-        <div class="bg-main-500 w-full-60 h-3.5 rounded-md flex">
+        <div
+          class="bg-main-500 md2:w-full-90 lg:w-full-60 md2:flex md2:flex-col lg:h-3.5 md2:h-full mb-2 lg:rounded-md flex"
+        >
           <div
-            class="flex-shrink-0 mr-5 text-white w-full-32 h-full content-between rounded-l-md rounded-r-minicircle bg-gray-500 hover flex flex-col justify-center items-start"
+            class="flex-shrink-0 lg:mr-5 text-white w-full-32 h-full md2:w-full md2:h-full-30 content-between md2:rounded-t-sm lg:rounded-l-md lg:rounded-r-minicircle bg-gray-500 hover flex flex-col justify-center items-start"
           >
             <div class="w-full">
               <div
-                class="flex flex-col justify-center items-center w-full-90 mb-4"
+                class="flex lg:flex-col md2:flex justify-center items-center lg:w-full-90 mb-4"
               >
                 <img
                   src="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/assest/src/images/png/personMain.png"
                   alt="imagePerson"
                   id="imagePerson"
                 />
-                <div>MohammadErfanLabbafi</div>
+                <div
+                  class="md2:flex md2:flex-col md2:w-full-60 flex-shrink-1 items-center"
+                >
+                  <div>MohammadErfanLabbafi</div>
+                  <div
+                    class="lg:hidden h-full text-center lg:w-full-90 text-sm font-bold"
+                  >
+                    <div>Front-End Developer</div>
+                    <div>location : Iran,Tehran</div>
+                  </div>
+                </div>
               </div>
-              <div class="h-full text-center w-full-90 text-sm font-bold">
+              <div
+                class="md2:hidden lg: h-full text-center w-full-90 text-sm font-bold"
+              >
                 <div>Front-End Developer</div>
                 <div>location : Iran,Tehran</div>
               </div>
