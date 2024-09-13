@@ -641,6 +641,21 @@ video {
   margin-bottom: 60px;
 }
 
+.mx-4 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.mx-3 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.mx-5 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 .mb-10 {
   margin-bottom: 100px;
 }
@@ -873,6 +888,10 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -1101,6 +1120,16 @@ video {
   padding-bottom: 10px;
 }
 
+.px-3 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.px-5 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .pe-1 {
   padding-inline-end: 5px;
 }
@@ -1299,6 +1328,14 @@ video {
     margin-right: 50px;
   }
 
+  .lg\:mt-4 {
+    margin-top: 20px;
+  }
+
+  .lg\:mb-4 {
+    margin-bottom: 20px;
+  }
+
   .lg\:hidden {
     display: none;
   }
@@ -1319,8 +1356,20 @@ video {
     width: 90%;
   }
 
+  .lg\:w-5 {
+    width: 400px;
+  }
+
   .lg\:flex-col {
     flex-direction: column;
+  }
+
+  .lg\:rounded-md {
+    border-radius: 30px;
+  }
+
+  .lg\:rounded-sm {
+    border-radius: 20px;
   }
 
   .lg\:rounded-l-md {
@@ -1459,6 +1508,16 @@ video {
 }
 
 @media (max-width: 975px) {
+  .md2\:mx-3 {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .md2\:mx-4 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
   .md2\:flex {
     display: flex;
   }
@@ -1475,6 +1534,14 @@ video {
     height: 30%;
   }
 
+  .md2\:h-1 {
+    height: 100px;
+  }
+
+  .md2\:h-2 {
+    height: 150px;
+  }
+
   .md2\:w-full {
     width: 100%;
   }
@@ -1483,16 +1550,51 @@ video {
     width: 60%;
   }
 
+  .md2\:w-full-85 {
+    width: 85%;
+  }
+
   .md2\:w-full-90 {
     width: 90%;
+  }
+
+  .md2\:w-full-70 {
+    width: 70%;
+  }
+
+  .md2\:w-full-80 {
+    width: 80%;
+  }
+
+  .md2\:flex-row {
+    flex-direction: row;
   }
 
   .md2\:flex-col {
     flex-direction: column;
   }
 
+  .md2\:rounded-sm {
+    border-radius: 20px;
+  }
+
   .md2\:rounded-t-sm {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+  }
+
+  .md2\:px-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .md2\:px-4 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .md2\:px-3 {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
