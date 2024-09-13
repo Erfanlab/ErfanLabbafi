@@ -876,6 +876,10 @@ video {
   width: 95%;
 }
 
+.w-full-85 {
+  width: 85%;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -1550,12 +1554,12 @@ video {
     width: 60%;
   }
 
-  .md2\:w-full-85 {
-    width: 85%;
-  }
-
   .md2\:w-full-90 {
     width: 90%;
+  }
+
+  .md2\:w-full-85 {
+    width: 85%;
   }
 
   .md2\:w-full-70 {
