@@ -392,7 +392,7 @@
       id="navbars"
       dir="rtl"
     >
-      <div class="sm2:flex md:hidden">
+      <div class="sm2:flex lg:hidden" onclick="toggleMobileMenu()">
         <svg
           width="42"
           height="28"
@@ -405,7 +405,7 @@
         </svg>
       </div>
       <div
-        class="flex gap-9 ms-5 sm2:hidden text-md menuList h-full"
+        class="flex gap-9 ms-5 md2:hidden text-md menuList h-full"
         id="menuList"
       >
         <a
@@ -427,7 +427,7 @@
           </div>
         </a>
         <a
-          href="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2//assest/component/skills.html"
+          href="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/assest/component/skills.html"
         >
           <div
             class="text-3xl font-yekanBold text-white link3 flex items-center"
@@ -446,7 +446,7 @@
         </a>
       </div>
       <div class="flex gap-8">
-        <div class="checkbox-wrapper-36 font-yekanBold sm2:hidden">
+        <div class="checkbox-wrapper-36 font-yekanBold md2:hidden">
           <input
             id="toggle-36"
             type="checkbox"
@@ -472,53 +472,90 @@
         </div>
       </div>
     </nav>
+    <div
+      class="rounded-sm-1 bg-main-500 MenuMobile h-3 fixed shadow-md lg:hidden hidden"
+      id="MenuMobile"
+    >
+      <div
+        class="flex flex-col gap-4 h-full-80 p-1 p-2 text-center text-sm text-white font-yekanBold"
+      >
+        <a
+          href="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/index.html"
+          >خانه</a
+          
+        >
+        <a
+          href="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/assest/component/gamepage.html"
+          >دانلودبازی</a
+        >
+        <a
+          href="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/assest/component/skills.html"
+          >مهارت</a
+        >
+        <a
+          href="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/assest/component/aboutme.html"
+          >درباره‌من</a
+        >
+      </div>
+      <div class="w-full justify-center flex">
+        <div class="checkbox-wrapper-36 font-yekanBold">
+          <input
+            id="toggle-37"
+            type="checkbox"
+            class="toggleMod"
+            onclick="myFunctionMobile()"
+          />
+          <label for="toggle-37"></label>
+        </div>
+      </div>
+    </div>
   </header>
   <body class="flex justify-between flex-col items-center scrollbar font-yekan">
     <main
       class="flex overflow-hidden w-full flex-col justify-center items-center my-6 relative font-yekan"
     >
-      <div class="w-full h-6 flex justify-around items-center relative">
+      <div class="w-full lg:h-6 md2:h-5 flex justify-around items-center relative md2:flex md2:flex-col">
         <div class="gamebackground w-full h-full absolute opacity-90"></div>
         <div
-          class="w-full-20 h-full-50 rounded-md flex justify-center z-20 items-center gap-5"
+          class="w-full-20 h-full-50  rounded-md flex justify-center z-20 items-center gap-5"
         >
           <h2 class="text-white font-yekanBold text-md">Overtaking</h2>
           <img
             src="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/assest/src/images/png/logogamelarg.png"
             alt="gamelogo"
-            class="h-full-50"
+            class="lg:h-full-50 md2:h-full-40"
           />
         </div>
         <div
-          class="md:w-full-30 xl:w-full-100 h-full-70 rounded-md shadow-md z-20"
+          class="md:w-full-30 md2:h-full-50 lg:w-full-100 h-full-70 md2:rounded-sm-1 lg:rounded-md shadow-md z-20"
         >
           <img
             src="https://s31.picofile.com/file/8473072150/A_work_by_Mohammad_Irfan_Labafi.gif"
             alt="gametrailer"
-            class="w-full h-full rounded-md shadow-md"
+            class="w-full h-full md2:rounded-sm-1 lg:rounded-md shadow-md"
           />
         </div>
       </div>
       <div
-        class="w-full-50 rounded-sm p-2 h-3 bg-gray-500 mt-3 flex justify-around items-center text-white"
+        class="lg:w-full-50 md2:w-full-90 rounded-sm lg:p-2 md2:p-1 lg:h-3 bg-gray-500 mt-3 flex justify-around items-center text-white md2:text-sm-1"
         dir="ltr"
       >
         <div
-          class="w-full-30 rounded-md p-2 h-full-90 bg-main-500 text-center flex flex-col justify-center gap-4 flex-shrink-0"
+          class="md2:w-full-40 lg:w-full-30 md2:rounded-sm-1 lg:rounded-md p-2 h-full-90 bg-main-500 text-center flex flex-col justify-center gap-4 flex-shrink-0"
         >
-          <strong
+          <strong class="md2:text-sm-1 md2:font-yekan"
             >Overtaking video game made by Mohammad Irfan Labafi using Unity
             game engine in 2015</strong
           >
           <a href="">
             <button
-              class="text-sm bg-gray-500 w-full-60 h-0.4 rounded-sm font-yekanBold hoverdark text-center"
+              class=" md2:text-sm-1 lg:text-sm bg-gray-500 md2:w-full lg:w-full-60 h-0.4 md2:rounded-sm-1 lg:rounded-sm font-yekanBold hoverdark text-center"
             >
               Download
             </button>
           </a>
         </div>
-        <p class="p-3 font-yekan">
+        <p class="lg:p-3 md2:p-2 font-yekan md2:text-sm-12 md2:h-3 ">
           <b> Minimum system requirements: </b> <br />
           CPU:Intel Core 2 Quad CPU Q6600 @ 2.40GHz (4 CPUs) / AMD Phenom 9850
           Quad-Core Processor (4 CPUs) @ 2.5GHz<br />

@@ -391,7 +391,7 @@
       id="navbars"
       dir="rtl"
     >
-      <div class="sm2:flex md:hidden">
+      <div class="sm2:flex lg:hidden" onclick="toggleMobileMenu()">
         <svg
           width="42"
           height="28"
@@ -404,7 +404,7 @@
         </svg>
       </div>
       <div
-        class="flex gap-9 ms-5 sm2:hidden text-md menuList h-full"
+        class="flex gap-9 ms-5 md2:hidden text-md menuList h-full"
         id="menuList"
       >
         <a
@@ -426,7 +426,7 @@
           </div>
         </a>
         <a
-          href="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2//assest/component/skills.html"
+          href="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/assest/component/skills.html"
         >
           <div
             class="text-3xl font-yekanBold text-white link3 flex items-center"
@@ -445,7 +445,7 @@
         </a>
       </div>
       <div class="flex gap-8">
-        <div class="checkbox-wrapper-36 font-yekanBold sm2:hidden">
+        <div class="checkbox-wrapper-36 font-yekanBold md2:hidden">
           <input
             id="toggle-36"
             type="checkbox"
@@ -471,6 +471,43 @@
         </div>
       </div>
     </nav>
+    <div
+      class="rounded-sm-1 bg-main-500 MenuMobile h-3 fixed shadow-md lg:hidden hidden"
+      id="MenuMobile"
+    >
+      <div
+        class="flex flex-col gap-4 h-full-80 p-1 p-2 text-center text-sm text-white font-yekanBold"
+      >
+        <a
+          href="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/index.html"
+          >خانه</a
+          
+        >
+        <a
+          href="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/assest/component/gamepage.html"
+          >دانلودبازی</a
+        >
+        <a
+          href="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/assest/component/skills.html"
+          >مهارت</a
+        >
+        <a
+          href="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/assest/component/aboutme.html"
+          >درباره‌من</a
+        >
+      </div>
+      <div class="w-full justify-center flex">
+        <div class="checkbox-wrapper-36 font-yekanBold">
+          <input
+            id="toggle-37"
+            type="checkbox"
+            class="toggleMod"
+            onclick="myFunctionMobile()"
+          />
+          <label for="toggle-37"></label>
+        </div>
+      </div>
+    </div>
   </header>
   <body class="flex justify-between flex-col items-center scrollbar font-yekan">
     <main
@@ -480,9 +517,9 @@
         class="w-full flex flex-col justify-center items-center gap-3 padinline"
       >
         <div class="w-full h-2.5 rounded-sm flex justify-center items-center">
-          <div class="relative w-full-50 h-full rounded-sm flex">
+          <div class="relative lg:w-full-50 md2:w-full-90 lg:h-full md2:h-full-80 rounded-sm flex">
             <div
-              class="bg-gray-500 p-3 h-full w-full-50 rounded-r-sm flex justify-center items-center text-center text-white text-sm-1"
+              class="bg-gray-500 p-3  h-full lg:w-full-50 md2:w-full-70 rounded-r-sm flex justify-center items-center text-center text-white text-sm-1"
             >
               Participating in the Quera levelup course and passing 9hours of
               training and workshop and doing a project and getting a passing
@@ -496,7 +533,7 @@
                 class="absolute bg-main-500 h-full w-full rounded-l-sm cover"
               ></div>
               <div
-                class="absolute text-md font-yekanBold flex justify-center items-center text-center w-full h-full"
+                class="absolute lg:text-md md2:text-sm font-yekanBold flex justify-center items-center text-center w-full h-full "
               >
                 web-developer
               </div>
@@ -504,7 +541,7 @@
           </div>
         </div>
         <div
-          class="flex justify-center items-center relative w-full-50 h-4 mt-4"
+          class="flex justify-center items-center relative md2:w-full-80  lg:w-full-50 md2:h-3 lg:h-4 mt-4"
         >
           <img
             class="absolute imgleft"
@@ -526,9 +563,9 @@
         class="mt-5 w-full flex flex-col justify-center items-center gap-3 padinline"
       >
         <div class="w-full h-2.5 rounded-sm flex justify-center items-center">
-          <div class="relative w-full-50 h-full rounded-sm flex">
+          <div class="relative lg:w-full-50 md2:w-full-90 lg:h-full md2:h-full-80 rounded-sm flex">
             <div
-              class="bg-gray-500 p-3 h-full w-full-50 rounded-r-sm flex justify-center items-center text-center text-white text-sm-1"
+              class="bg-gray-500 p-3 h-full md2:w-full-70 lg:w-full-50 rounded-r-sm flex justify-center items-center text-center text-white text-sm-1"
             >
               Participating in the Quera levelup course and passing 9hours of
               training and workshop and doing a project and getting a passing
@@ -542,7 +579,7 @@
                 class="absolute bg-main-500 h-full w-full rounded-l-sm cover"
               ></div>
               <div
-                class="absolute text-md font-yekanBold flex justify-center items-center text-center w-full h-full"
+                class="absolute lg:text-md md2:text-sm font-yekanBold flex justify-center items-center text-center w-full h-full"
               >
                 excel
               </div>
@@ -550,7 +587,7 @@
           </div>
         </div>
         <div
-          class="flex justify-center items-center relative w-full-50 h-4 mt-4"
+          class="flex justify-center items-center relative md2:w-full-75 lg:w-full-50 md2:h-3 lg:h-4 mt-4"
         >
           <img
             class="absolute imgleft"
@@ -572,9 +609,9 @@
         class="mt-5 w-full flex flex-col justify-center items-center gap-3 padinline"
       >
         <div class="w-full h-2.5 rounded-sm flex justify-center items-center">
-          <div class="relative w-full-50 h-full rounded-sm flex">
+          <div class="relative lg:w-full-50 lg:h-full md2:w-full-90 md2:h-full-80 rounded-sm flex">
             <div
-              class="bg-gray-500 p-3 h-full w-full-50 rounded-r-sm flex justify-center items-center text-center text-white text-sm-1"
+              class="bg-gray-500 p-3 h-full md2:w-full-70 lg:w-full-50  rounded-r-sm flex justify-center flex-grow items-center text-center text-white text-sm-1"
             >
               The participant in the home school course has successfully
               completed 57 hours of training. Hours of training and workshops
@@ -588,7 +625,7 @@
                 class="absolute bg-main-500 h-full w-full rounded-l-sm cover"
               ></div>
               <div
-                class="absolute text-md font-yekanBold flex justify-center items-center text-center w-full h-full"
+                class="absolute md2:text-sm lg:text-md font-yekanBold flex justify-center items-center text-center w-full h-full"
               >
                 python
               </div>
@@ -596,7 +633,7 @@
           </div>
         </div>
         <div
-          class="flex justify-center items-center relative w-full-50 h-4 mt-4"
+          class="flex justify-center items-center relative md2:w-full-75 md2:h-3 lg:w-full-50 lg:h-4 mt-4"
         >
           <img
             class="absolute imgleft"
@@ -617,10 +654,10 @@
       <div
         class="mt-5 w-full flex flex-col justify-center items-center gap-3 padinline"
       >
-        <div class="w-full h-2.5 rounded-sm flex justify-center items-center">
-          <div class="relative w-full-50 h-full rounded-sm flex">
+        <div class=" w-full h-2.5 rounded-sm flex justify-center items-center">
+          <div class="relative lg:w-full-50 md2:w-full-90 lg:h-full md2:h-full-80 rounded-sm flex">
             <div
-              class="bg-gray-500 h-full w-full-50 rounded-r-sm flex justify-center items-center text-center text-white text-sm-1 p-3"
+              class="bg-gray-500 h-full md2:w-full-70 lg:w-full-50 rounded-r-sm flex justify-center items-center text-center text-white text-sm-1 p-3"
             >
               The participant in the home school course has successfully
               completed 57 hours of training. Hours of training and workshops
@@ -642,7 +679,7 @@
           </div>
         </div>
         <div
-          class="flex justify-center items-center relative w-full-50 h-4 mt-4"
+          class="flex justify-center items-center relative md2:w-full-80 lg:w-full-50 md2:h-3 lg:h-4 mt-4"
         >
           <img
             class="absolute imgleft"

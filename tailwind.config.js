@@ -193,6 +193,7 @@ module.exports = {
       circle: "360px",
     },
     fontSize: {
+      "sm-12": "12px",
       "sm-1": "14px",
       16: "16px",
       sm: "20px",

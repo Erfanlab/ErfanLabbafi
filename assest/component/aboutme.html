@@ -459,7 +459,7 @@
       id="navbars"
       dir="rtl"
     >
-      <div class="sm2:flex md:hidden">
+      <div class="sm2:flex lg:hidden" onclick="toggleMobileMenu()">
         <svg
           width="42"
           height="28"
@@ -472,7 +472,7 @@
         </svg>
       </div>
       <div
-        class="flex gap-9 ms-5 sm2:hidden text-md menuList h-full"
+        class="flex gap-9 ms-5 md2:hidden text-md menuList h-full"
         id="menuList"
       >
         <a
@@ -494,7 +494,7 @@
           </div>
         </a>
         <a
-          href="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2//assest/component/skills.html"
+          href="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/assest/component/skills.html"
         >
           <div
             class="text-3xl font-yekanBold text-white link3 flex items-center"
@@ -513,7 +513,7 @@
         </a>
       </div>
       <div class="flex gap-8">
-        <div class="checkbox-wrapper-36 font-yekanBold sm2:hidden">
+        <div class="checkbox-wrapper-36 font-yekanBold md2:hidden">
           <input
             id="toggle-36"
             type="checkbox"
@@ -539,6 +539,43 @@
         </div>
       </div>
     </nav>
+    <div
+      class="rounded-sm-1 bg-main-500 MenuMobile h-3 fixed shadow-md lg:hidden hidden"
+      id="MenuMobile"
+    >
+      <div
+        class="flex flex-col gap-4 h-full-80 p-1 p-2 text-center text-sm text-white font-yekanBold"
+      >
+        <a
+          href="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/index.html"
+          >خانه</a
+          
+        >
+        <a
+          href="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/assest/component/gamepage.html"
+          >دانلودبازی</a
+        >
+        <a
+          href="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/assest/component/skills.html"
+          >مهارت</a
+        >
+        <a
+          href="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/assest/component/aboutme.html"
+          >درباره‌من</a
+        >
+      </div>
+      <div class="w-full justify-center flex">
+        <div class="checkbox-wrapper-36 font-yekanBold">
+          <input
+            id="toggle-37"
+            type="checkbox"
+            class="toggleMod"
+            onclick="myFunctionMobile()"
+          />
+          <label for="toggle-37"></label>
+        </div>
+      </div>
+    </div>
   </header>
 
   <body
@@ -547,12 +584,12 @@
     <main
       class="flex overflow-hidden w-full flex-col my-10 relative font-yekan justify-center items-center gap-8"
     >
-      <div class="w-full h-7 flex gap-3 mb-2">
+      <div class="w-full lg:h-7 md2:h-5 flex gap-3 mb-2">
         <div
           class="flex flex-col gap-3 w-full-50 h-full"
           style="align-items: end"
         >
-          <div class="bg-gray-500 w-full-40 h-5 rounded-sm p-2">
+          <div class="bg-gray-500 md2:w-full lg:w-full-40 h-5 rounded-sm p-2">
             <div class="w-full flex items-center justify-center">
               <svg
                 width="80"
@@ -565,7 +602,7 @@
                 <use href="#aboutme-person"></use>
               </svg>
             </div>
-            <div class="w-full text-center p-1 font-yekan flex" dir="ltr">
+            <div class="w-full text-center p-1 font-yekan flex md2:text-sm-12" dir="ltr">
               Fueled by a constant desire for continuous learning, I actively
               seek new opportunities in the JavaScript,Web-Developer to
               contribute to personal and professional growth by expanding
