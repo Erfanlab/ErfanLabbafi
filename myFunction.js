@@ -13,4 +13,4 @@ function myFunction() {
       users.classList.add("bg-main-500") +
       iconname.classList.remove("bg-white", "text-black") +
       iconname.classList.add("bg-black", "text-white");
-}
+};

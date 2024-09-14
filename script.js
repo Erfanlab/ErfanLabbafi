@@ -2,11 +2,22 @@
 document.addEventListener("DOMContentLoaded", (_event) => {
   const htmlElement = document.documentElement;
   const switchElement = document.getElementById("toggle-36");
+  const switchElementMobile = document.getElementById("toggle-37");
   const currentTheme = localStorage.getItem("bsTheme") || "dark";
 
   htmlElement.setAttribute("data-bs-theme", currentTheme);
   switchElement.checked = currentTheme === "dark";
+  switchElementMobile.checked = currentTheme === "dark";
   switchElement.addEventListener("change", function () {
+    if (this.checked) {
+      htmlElement.setAttribute("data-bs-theme", "dark");
+      localStorage.setItem("bsTheme", "dark");
+    } else {
+      htmlElement.setAttribute("data-bs-theme", "light");
+      localStorage.setItem("bsTheme", "light");
+    }
+  });
+  switchElementMobile.addEventListener("change", function () {
     if (this.checked) {
       htmlElement.setAttribute("data-bs-theme", "dark");
       localStorage.setItem("bsTheme", "dark");
@@ -17,6 +28,12 @@ document.addEventListener("DOMContentLoaded", (_event) => {
   });
 });
 function myFunction() {
+  const modhtml = localStorage.getItem("bsTheme");
+  console.log(modhtml);
+
+  modhtml == "dark" ? light() : dark();
+}
+function myFunctionMobile() {
   const modhtml = localStorage.getItem("bsTheme");
   console.log(modhtml);
 
@@ -102,3 +119,14 @@ function dark() {
 }
 
 ////////    dark mod light mod with local storage
+
+
+
+///// toggle hamburger menu
+
+const btnhambergerMobile = document.getElementById('MenuMobile');
+
+function toggleMobileMenu(){
+ btnhambergerMobile.classList.toggle('hidden')
+
+}
