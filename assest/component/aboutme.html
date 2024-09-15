@@ -444,6 +444,10 @@
   />
   <link
     rel="stylesheet"
+    href="/output.css"
+  />
+  <link
+    rel="stylesheet"
     href="https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/assest/src/fonts/yekan-bakh/font-ykan.css"
   />
 
@@ -584,16 +588,28 @@
     <main
       class="flex overflow-hidden w-full flex-col my-10 relative font-yekan justify-center items-center gap-8"
     >
-      <div class="w-full lg:h-7 md2:h-5 flex gap-3 mb-2">
+      <div class="w-full lg:h-7 md2:h-7  flex gap-3 mb-2">
         <div
           class="flex flex-col gap-3 w-full-50 h-full"
           style="align-items: end"
         >
-          <div class="bg-gray-500 md2:w-full lg:w-full-40 h-5 rounded-sm p-2">
+          <div class="bg-gray-500 md2:w-full-90 lg:w-full-40 h-5 rounded-sm p-2">
             <div class="w-full flex items-center justify-center">
+              <svg
+                width="40"
+                height="50"
+                class=" lg:hidden"
+                viewBox="0 0 80 90"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                >
+                <use href="#aboutme-person"></use>
+              </svg>
               <svg
                 width="80"
                 height="80"
+                class=" md2:hidden"
                 viewBox="0 0 80 90"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -602,7 +618,7 @@
                 <use href="#aboutme-person"></use>
               </svg>
             </div>
-            <div class="w-full text-center p-1 font-yekan flex md2:text-sm-12" dir="ltr">
+            <div class="w-full text-center p-1 font-yekan flex md2:text-sm-1" dir="ltr">
               Fueled by a constant desire for continuous learning, I actively
               seek new opportunities in the JavaScript,Web-Developer to
               contribute to personal and professional growth by expanding
@@ -611,12 +627,23 @@
             </div>
           </div>
           <div
-            class="bg-main-500 w-full-40 p-2 h-full-70 rounded-sm flex flex-col justify-center"
+            class="bg-main-500 md2:w-full-90 lg:w-full-40 p-2 md2:h-full-40 lg:h-full-70 rounded-sm flex flex-col justify-center"
           >
             <div class="flex justify-center items-center w-full h-1">
               <svg
+                width="40"
+                height="50"
+                class=" lg:hidden"
+                viewBox="0 0 90 100"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use href="#aboutme-develop"></use>
+              </svg>
+              <svg
                 width="auto"
                 height="90"
+                class="md2:hidden"
                 viewBox="0 0 90 100"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -625,7 +652,7 @@
               </svg>
             </div>
             <div
-              class="flex justify-center items-center font-yekanBold lg:text-sm xl:text-md w-full text-center p-2 overflow-hidden"
+              class="flex justify-center items-center font-yekanBold lg:text-sm xl:text-md w-full text-center lg:p-2 overflow-hidden"
               dir="ltr"
             >
               Front-End Developer location : Iran,Tehran
@@ -637,11 +664,11 @@
           style="align-items: start"
         >
           <div
-            class="bg-main-500 flex items-center justify-center w-full-35 h-full-45 rounded-sm"
+            class="bg-main-500 flex items-center justify-center md2:w-full-90 md2:h-full-25 flex-shrink-0 lg:h-full-45 rounded-sm"
           >
             <div></div>
             <div
-              class="h-full-80 bg-gray-100 w-full-55 rounded-sm-1 flex relative items-center backImageAboutMe"
+              class="md2:h-full lg:h-full-80 bg-gray-100 lg:w-full-55 md2:w-full rounded-sm-1 flex relative items-center backImageAboutMe"
             >
               <div
                 class="absolute bottom-f-0 bg-gray-900 w-full h-full-45 text-center font-yekan rounded-b-sm-1 text-sm-1 justify-center items-center flex p-1 opacity-60 text-white hover"
@@ -650,20 +677,31 @@
               </div>
             </div>
           </div>
-          <div class="bg-gray-500 w-full-35 h-full-70 rounded-sm p-2">
+          <div class="bg-gray-500 md2:w-full-90 md2:h-full-55 lg:w-full-35 lg:h-full-70 rounded-sm p-2">
             <div class="w-full flex justify-center">
+              <svg
+                width="40"
+                height="50"
+                viewBox="0 0 90 100"
+                fill="none"
+                class="lg:hidden"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use href="#aboutme-note"></use>
+              </svg>
               <svg
                 width="90"
                 height="100"
                 viewBox="0 0 90 100"
                 fill="none"
+                class="md2:hidden"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <use href="#aboutme-note"></use>
               </svg>
             </div>
             <div
-              class="w-full h-full justify-center text-center overflow-hidden"
+              class="w-full h-full justify-center lg:text-md md2:text-sm-1 text-center overflow-hidden"
               dir="ltr"
             >
               My educational background lies in power electricity , and
@@ -677,20 +715,24 @@
           </div>
         </div>
       </div>
-      <div class="flex gap-3 justify-center w-full h-3.5 mt-4">
+      <div class="flex md2:flex md2:flex-col gap-3 justify-center lg:w-full md2:w-full-90 md2:h-4 lg:h-3.5 mt-4">
         <div
-          class="relative w-full-30 rounded-sm-1 h-full flex justify-center items-center"
+          class="relative md2:w-full md2:h-full-50 lg:w-full-30 rounded-sm-1 lg:h-full flex justify-center items-center"
         >
           <div
             class="absolute right-f-0 flex p-3 h-full-80 bg-gray-500 w-full-70 rounded-sm-1 "
           >
         <div class="w-full h-full">
-          <div class="flex justify-between items-center w-full-80 h-1">
+          <div class="flex justify-between items-center w-full-80 lg:h-1">
 
             <div class=" flex justify-center items-center">
               <a href="https://www.figma.com/">
 
-                <svg class="text-lite hoversm" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="text-lite hoversm md2:hidden" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <use href="#figma"></use>
+                </svg>
+
+                <svg class="text-lite hoversm lg:hidden" width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
     >
                   <use href="#figma"></use>
                 </svg>
@@ -702,8 +744,11 @@
 
 
 
-                <svg class="text-lite hoversm" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-    >
+                <svg class="text-lite hoversm md2:hidden" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <use href="#html"></use>
+                </svg>
+
+                <svg class="text-lite hoversm lg:hidden" width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <use href="#html"></use>
                 </svg>
               </a>
@@ -712,8 +757,10 @@
               <a href="https://www.w3schools.com/css/">
 
 
-                <svg class="text-lite hoversm" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-    >
+                <svg class="text-lite hoversm md2:hidden" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <use href="#css"></use>
+                </svg>
+                <svg class="text-lite hoversm lg:hidden" width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <use href="#css"></use>
                 </svg>
 
@@ -722,12 +769,16 @@
 
 
           </div>
-          <div class="flex justify-end gap-9 items-center w-full-80 h-1">
+          <div class="flex justify-end md2:gap-4 lg:gap-9 items-center w-full-80 md2:h-0.7 lg:h-1">
 
             <div>
               <a href="https://unity.com/">
-                <svg class="text-lite hoversm" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  >
+                <svg class="text-lite hoversm md2:hidden" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                
+                                <use href="#unity"></use>
+                              </svg>
+                <svg class="text-lite hoversm lg:hidden" width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                
                                 <use href="#unity"></use>
                               </svg>
               </a>
@@ -736,8 +787,12 @@
             <div>
               <a href="https://javascript.info/">
 
-                <svg class="text-lite hoversm" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-    >
+                <svg class="text-lite hoversm md2:hidden" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+    
+                  <use href="#javascript"></use>
+                </svg>
+                <svg class="text-lite hoversm lg:hidden" width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+    
                   <use href="#javascript"></use>
                 </svg>
               </a>
@@ -759,19 +814,20 @@
          <use href="#aboutme-ability"></use>
  
         </svg>
+       
 
         </div>
-         <div class=" text-center font-yekanBold text-sm50" dir="ltr">My Skills:</div>
+         <div class=" text-center font-yekanBold md2:text-sm lg:text-sm50" dir="ltr">My Skills:</div>
         
       
       </div>
         </div>
         <div
-        class="relative w-full-30 rounded-sm-1 h-full flex justify-center items-center"
+        class="relative md2:w-full lg:w-full-30 rounded-sm-1 md2:h-full-50 lg:h-full flex justify-center items-center"
       >
         <div
           class="absolute right-f-0 h-full-80 bg-gray-500 w-full-70 flex justify-center text-center items-center rounded-sm-1"
-        >          <p class=" font-yekan text-center w-full-60 h-full flex justify-center items-center " dir="ltr">More than 3 years of experience in a useful brokerage Lorem Ipsum is a mock text with an unintelligible simplicity produced by the printing industry</p>
+        >          <p class=" font-yekan text-center md2:w-full-80 md2:pt-1 lg:w-full-60 h-full flex justify-center items-center md2:text-sm-1 " dir="ltr">More than 3 years of experience in a useful brokerage Lorem Ipsum is a mock text with an unintelligible simplicity produced by the printing industry</p>
       </div>
         <div
           class="absolute p-3 left-f-0 h-full bg-main-500 w-full-35 rounded-sm-1"
@@ -784,7 +840,7 @@
         </svg>
 
         </div>
-         <div class=" text-center font-yekanBold text-sm50" dir="ltr">My experience:</div>
+         <div class=" text-center font-yekanBold md2:text-sm lg:text-sm50" dir="ltr">My experience:</div>
          <div >
           
         </div>
