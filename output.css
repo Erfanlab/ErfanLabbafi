@@ -1605,6 +1605,10 @@ video {
     margin-top: 10px;
   }
 
+  .md2\:mt-7 {
+    margin-top: 70px;
+  }
+
   .md2\:flex {
     display: flex;
   }
@@ -1651,6 +1655,10 @@ video {
 
   .md2\:h-full-25 {
     height: 25%;
+  }
+
+  .md2\:h-full-30 {
+    height: 30%;
   }
 
   .md2\:h-full-40 {
