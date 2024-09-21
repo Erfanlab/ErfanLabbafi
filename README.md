@@ -1,9 +1,9 @@
-<a style="font-size:16px; text-decoration:none;" href="https://github.com/Erfanlab/ErfanLabbafi-portfolio-version-2/tree/main
-">ErfanLabbafi-portfolio-version-2
+<a style="font-size:16px; text-decoration:none;" href="https://github.com/Erfanlab/ErfanLabbafi/tree/main
+">ErfanLabbafi/
 </a>
 
 <hr>
-<img src="https://github.com/Erfanlab/ErfanLabbafi-portfolio-version-2/blob/main/assest/src/images/Cover.png?raw=true">
+<img src="https://github.com/Erfanlab/ErfanLabbafi/blob/main/assest/src/images/Cover.png?raw=true">
 <hr>
 <h1>
 New version portfolio + New design

@@ -10,6 +10,10 @@ module.exports = {
     './assest/component/skills.html',
     './assest/component/gamepage.html',
     './assest/component/page2.html',
+    'https://erfanlab.github.io/ErfanLabbafi/assest/component/aboutme.html',
+    'https://erfanlab.github.io/ErfanLabbafi/assest/component/skills.html',
+    'https://erfanlab.github.io/ErfanLabbafi/assest/component/gamepage.html',
+    'https://erfanlab.github.io/ErfanLabbafi/assest/component/page2.html',
     ],
   theme: {
     screens: {

@@ -1,1 +1,400 @@
-@import'https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/output.css';@import'https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/assest/src/fonts/yekan-bakh/font-ykan.css';@media only screen and (min-width: 1700px){.padinline{padding-inline:180px !important}}.checkbox-wrapper-36 *,.checkbox-wrapper-36 *::before,.checkbox-wrapper-36 *::after{box-sizing:border-box;cursor:pointer}.checkbox-wrapper-36 label{background:#fff;border-radius:8px;display:flex;height:45px;position:relative;transition:transform 300ms ease,box-shadow 300ms ease;width:140px}@media only screen and (max-width: 975px){.checkbox-wrapper-36 label{background:#fff;border-radius:2px;display:flex;height:30px;position:relative;transition:transform 300ms ease,box-shadow 300ms ease;width:120px !important}.checkbox-wrapper-36 label:after{content:"روشن";width:50%;padding:2px !important;height:100%;font-size:14px !important;display:flex;justify-content:center;align-items:center;animation:move-left-36 400ms !important;background-color:#fff;color:#000;border-radius:2px;outline:none;position:absolute;transition:background-color 100ms linear;left:0 !important}.checkbox-wrapper-36 input:checked+label:after{content:"تاریک";color:#fff;font-size:14px !important;padding:2px !important;animation:move-right-36 400ms !important;background-color:#148f77;width:50%;height:100%;display:flex;justify-content:center;align-items:center;left:72px !important;bottom:0}.checkbox-wrapper-36 label:active{transform:scale(1.15)}.toggleMod~label{transition:all .1s ease-in-out}.toggleMod~label:hover{transition:all .1s ease-in-out;box-shadow:#1d1d1d 1px 1px 5px;background-color:#2d2d2d}}.checkbox-wrapper-36 input{display:none}.checkbox-wrapper-36 label:after{content:"روشن";width:50%;padding:5px;height:100%;font-size:24px;display:flex;justify-content:center;align-items:center;animation:move-left-36 400ms;background-color:#fff;color:#000;border-radius:8px;outline:none;position:absolute;transition:background-color 100ms linear;left:0}.checkbox-wrapper-36 label:active{transform:scale(1.15)}.checkbox-wrapper-36 input:checked+label:after{content:"تاریک";color:#fff;font-size:24px;padding:5px;animation:move-right-36 400ms;background-color:#148f77;width:50%;height:100%;display:flex;justify-content:center;align-items:center;left:72px;bottom:0}.toggleMod~label{transition:all .1s ease-in-out}.toggleMod~label:hover{transition:all .1s ease-in-out;box-shadow:#1d1d1d 1px 1px 5px;background-color:#2d2d2d}@keyframes move-right-36{0%{left:8px}75%{left:78px}100%{left:72px}}@keyframes move-left-36{0%{left:72px}75%{left:2px}100%{left:8px}}.scrollbar::-webkit-scrollbar{width:7px;height:5px}.scrollbar::-webkit-scrollbar-track{background:rgba(0,0,0,0)}.scrollbar::-webkit-scrollbar-thumb{background:#2d2d2d}.scrollbar::-webkit-scrollbar-thumb:hover{background:#148f77}#imagelisence{transition:all .2s ease}#imagelisence:hover{transition:all .2s ease;height:60px;filter:contrast(100%);left:15px}.icons{transition:all .1s ease-in-out}.icons:hover{transition:all .1s ease-in-out;width:100px}.menuList a div{position:relative;height:100%;padding:0;border-radius:15px 15px 0 0;padding:0 10px;transition:all .1s ease-in-out}.menuList a div:hover{margin-top:5px;transition:all .1s ease-in-out}.menuList a div:hover::before{position:absolute;transition:all .1ms ease-in-out;bottom:0;right:-6px;content:"";height:22px;width:10px;border-radius:0 0 0 10px}.menuList a div:hover:after{position:absolute;transition:all .1ms ease-in-out;bottom:-1px;left:-7px;content:"";height:22px;width:10px;border-radius:0 0 10px 0}.MenuMobile{width:180px !important;top:75px !important;right:10px !important}.hover{transition:all .2s ease-in-out}.hover:hover{transition:all .2s ease-in-out}#imagePerson{width:90px;transition:all .1s ease-in-out;background-image:none}#imagePerson:hover{transition:all .1s ease-in-out;width:110px}.shortcut:hover .bottomhover{width:100%;height:2px;transition:all .2s ease-in-out}.shortcut:not(:hover) .bottomhover{width:0;height:2px;transition:all .2s ease-in-out}.socials{transition:all .2s ease-in-out;left:0}.socials:hover{width:35px;height:35px;transition:all .2s ease-in-out;left:-20px}.acseptfooter{transition:all .1s ease-in-out;box-shadow:none}.acseptfooter:hover{transition:all .1s ease-in-out;border:1px solid #1d1d1d;box-shadow:#1d1d1d 0 0 8px}.cancelfooter{box-shadow:none;transition:all .1s ease-in-out}.cancelfooter:hover{transition:all .1s ease-in-out;border:1px solid #1d1d1d;box-shadow:#1d1d1d 0 0 8px}.nameJob{transition:all .2s ease-in-out}.nameJob:hover{transition:all .2s ease-in-out;box-shadow:#1d1d1d 0 0 8px;height:100%;border-radius:20px 0 0 20px;opacity:100}.nameJob:hover{transition:all .2s ease-in-out}.nameJob:hover .mofidIcons{transition:all .2s ease-in-out;display:flex}.mofidIcons{display:none;transition:all .2s ease-in-out}.backs{background:#1a1a1a;background:linear-gradient(90deg, rgba(26, 26, 26, 0.6615896359) 42%, rgba(16, 143, 118, 0.9360994398) 50%, rgb(16, 143, 118) 58%, rgb(16, 143, 118) 60%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a1a1a",endColorstr="#108f76",GradientType=1)}#mygames img{opacity:80%}.titleskilsweb{background-image:url(https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/assest/src/images/png-skills/webdeveloper.png);background-repeat:no-repeat;background-size:100% 100%}.titleskilsexcel{background-image:url(https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/assest/src/images/png-skills/excel.png);background-repeat:no-repeat;background-size:100% 100%}.titleskilspython{background-image:url(https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/assest/src/images/png-skills/python.png);background-repeat:no-repeat;background-size:100% 100%}.titleskilsunity{background-image:url(https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/assest/src/images/png-skills/unity3d.png);background-repeat:no-repeat;background-size:100% 100%}.cover{filter:opacity(60%) !important}.noneCover{filter:opacity(100%) !important}.imgleft{top:0;left:20px}.imgright{bottom:0;right:20px}.backImageAboutMe{background-image:url(https://erfanlab.github.io/ErfanLabbafi-portfolio-version-2/assest/src/images/Svg/aboutme/personmain.png);background-repeat:no-repeat;background-size:cover}.backImageAboutMe div{transition:all .2s ease-in-out}.backImageAboutMe div:hover{transition:all .2s ease-in-out;font-size:16px;height:100% !important;opacity:100% !important;border-radius:10px !important}.gamebackground{background-image:url(https://s31.picofile.com/file/8473072150/A_work_by_Mohammad_Irfan_Labafi.gif);background-repeat:no-repeat;filter:blur(70px);background-size:cover}.hoversm{transition:all .1s ease-in-out !important}.hoversm:hover{transition:all .1s ease-in-out !important;width:67px !important;height:67px !important;color:rgba(255,255,255,.4117647059) !important}.coursepointer{cursor:pointer}
+@charset "UTF-8";
+@import 'https://erfanlab.github.io/ErfanLabbafi/output.css';
+@import 'https://erfanlab.github.io/ErfanLabbafi/assest/src/fonts/yekan-bakh/font-ykan.css';
+@media only screen and (min-width: 1700px) {
+  .padinline {
+    padding-inline: 180px !important;
+  }
+}
+.checkbox-wrapper-36 *,
+.checkbox-wrapper-36 *::before,
+.checkbox-wrapper-36 *::after {
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.checkbox-wrapper-36 label {
+  background: white;
+  border-radius: 8px;
+  display: flex;
+  height: 45px;
+  position: relative;
+  transition: transform 300ms ease, box-shadow 300ms ease;
+  width: 140px;
+}
+
+@media only screen and (max-width: 975px) {
+  .checkbox-wrapper-36 label {
+    background: white;
+    border-radius: 2px;
+    display: flex;
+    height: 30px;
+    position: relative;
+    transition: transform 300ms ease, box-shadow 300ms ease;
+    width: 120px !important;
+  }
+  .checkbox-wrapper-36 label:after {
+    content: "روشن";
+    width: 50%;
+    padding: 2px !important;
+    height: 100%;
+    font-size: 14px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: move-left-36 400ms !important;
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+    outline: none;
+    position: absolute;
+    transition: background-color 100ms linear;
+    left: 0 !important;
+  }
+  .checkbox-wrapper-36 input:checked + label:after {
+    content: "تاریک";
+    color: white;
+    font-size: 14px !important;
+    padding: 2px !important;
+    animation: move-right-36 400ms !important;
+    background-color: #148f77;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 72px !important;
+    bottom: 0;
+  }
+  .checkbox-wrapper-36 label:active {
+    transform: scale(1.15);
+  }
+  .toggleMod ~ label {
+    transition: all 0.1s ease-in-out;
+  }
+  .toggleMod ~ label:hover {
+    transition: all 0.1s ease-in-out;
+    box-shadow: #1d1d1d 1px 1px 5px;
+    background-color: #2d2d2d;
+  }
+}
+.checkbox-wrapper-36 input {
+  display: none;
+}
+
+.checkbox-wrapper-36 label:after {
+  content: "روشن";
+  width: 50%;
+  padding: 5px;
+  height: 100%;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: move-left-36 400ms;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  outline: none;
+  position: absolute;
+  transition: background-color 100ms linear;
+  left: 0;
+}
+
+.checkbox-wrapper-36 label:active {
+  transform: scale(1.15);
+}
+
+.checkbox-wrapper-36 input:checked + label:after {
+  content: "تاریک";
+  color: white;
+  font-size: 24px;
+  padding: 5px;
+  animation: move-right-36 400ms;
+  background-color: #148f77;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 72px;
+  bottom: 0;
+}
+
+.toggleMod ~ label {
+  transition: all 0.1s ease-in-out;
+}
+.toggleMod ~ label:hover {
+  transition: all 0.1s ease-in-out;
+  box-shadow: #1d1d1d 1px 1px 5px;
+  background-color: #2d2d2d;
+}
+
+@keyframes move-right-36 {
+  0% {
+    left: 8px;
+  }
+  75% {
+    left: 78px;
+  }
+  100% {
+    left: 72px;
+  }
+}
+@keyframes move-left-36 {
+  0% {
+    left: 72px;
+  }
+  75% {
+    left: 2px;
+  }
+  100% {
+    left: 8px;
+  }
+}
+.scrollbar::-webkit-scrollbar {
+  width: 7px;
+  height: 5px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #2d2d2d;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #148f77;
+}
+
+#imagelisence {
+  transition: all 0.2s ease;
+}
+#imagelisence:hover {
+  transition: all 0.2s ease;
+  height: 60px;
+  filter: contrast(100%);
+  left: 15px;
+}
+
+.icons {
+  transition: all 0.1s ease-in-out;
+}
+.icons:hover {
+  transition: all 0.1s ease-in-out;
+  width: 100px;
+}
+
+.menuList a div {
+  position: relative;
+  height: 100%;
+  padding: 0;
+  border-radius: 15px 15px 0 0;
+  padding: 0 10px;
+  transition: all 0.1s ease-in-out;
+}
+.menuList a div:hover {
+  margin-top: 5px;
+  transition: all 0.1s ease-in-out;
+}
+.menuList a div:hover::before {
+  position: absolute;
+  transition: all 0.1ms ease-in-out;
+  bottom: 0;
+  right: -6px;
+  content: "";
+  height: 22px;
+  width: 10px;
+  border-radius: 0 0 0 10px;
+}
+.menuList a div:hover:after {
+  position: absolute;
+  transition: all 0.1ms ease-in-out;
+  bottom: -1px;
+  left: -7px;
+  content: "";
+  height: 22px;
+  width: 10px;
+  border-radius: 0 0 10px 0;
+}
+
+.MenuMobile {
+  width: 180px !important;
+  top: 75px !important;
+  right: 10px !important;
+}
+
+.hover {
+  transition: all 0.2s ease-in-out;
+}
+.hover:hover {
+  transition: all 0.2s ease-in-out;
+}
+
+#imagePerson {
+  width: 90px;
+  transition: all 0.1s ease-in-out;
+  background-image: none;
+}
+#imagePerson:hover {
+  transition: all 0.1s ease-in-out;
+  width: 110px;
+}
+
+.shortcut:hover .bottomhover {
+  width: 100%;
+  height: 2px;
+  transition: all 0.2s ease-in-out;
+}
+
+.shortcut:not(:hover) .bottomhover {
+  width: 0;
+  height: 2px;
+  transition: all 0.2s ease-in-out;
+}
+
+.socials {
+  transition: all 0.2s ease-in-out;
+  left: 0;
+}
+.socials:hover {
+  width: 35px;
+  height: 35px;
+  transition: all 0.2s ease-in-out;
+  left: -20px;
+}
+
+.acseptfooter {
+  transition: all 0.1s ease-in-out;
+  box-shadow: none;
+}
+.acseptfooter:hover {
+  transition: all 0.1s ease-in-out;
+  border: 1px solid #1d1d1d;
+  box-shadow: #1d1d1d 0 0 8px;
+}
+
+.cancelfooter {
+  box-shadow: none;
+  transition: all 0.1s ease-in-out;
+}
+.cancelfooter:hover {
+  transition: all 0.1s ease-in-out;
+  border: 1px solid #1d1d1d;
+  box-shadow: #1d1d1d 0 0 8px;
+}
+
+.nameJob {
+  transition: all 0.2s ease-in-out;
+}
+.nameJob:hover {
+  transition: all 0.2s ease-in-out;
+  box-shadow: #1d1d1d 0 0 8px;
+  height: 100%;
+  border-radius: 20px 0 0 20px;
+  opacity: 100;
+}
+
+.nameJob:hover {
+  transition: all 0.2s ease-in-out;
+}
+.nameJob:hover .mofidIcons {
+  transition: all 0.2s ease-in-out;
+  display: flex;
+}
+
+.mofidIcons {
+  display: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.backs {
+  background: rgb(26, 26, 26);
+  background: linear-gradient(90deg, rgba(26, 26, 26, 0.6615896359) 42%, rgba(16, 143, 118, 0.9360994398) 50%, rgb(16, 143, 118) 58%, rgb(16, 143, 118) 60%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a1a1a",endColorstr="#108f76",GradientType=1);
+}
+
+#mygames img {
+  opacity: 80%;
+}
+
+.titleskilsweb {
+  background-image: url(https://erfanlab.github.io/ErfanLabbafi/assest/src/images/png-skills/webdeveloper.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.titleskilsexcel {
+  background-image: url(https://erfanlab.github.io/ErfanLabbafi/assest/src/images/png-skills/excel.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.titleskilspython {
+  background-image: url(https://erfanlab.github.io/ErfanLabbafi/assest/src/images/png-skills/python.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.titleskilsunity {
+  background-image: url(https://erfanlab.github.io/ErfanLabbafi/assest/src/images/png-skills/unity3d.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.cover {
+  filter: opacity(60%) !important;
+}
+
+.noneCover {
+  filter: opacity(100%) !important;
+}
+
+.imgleft {
+  top: 0;
+  left: 20px;
+}
+
+.imgright {
+  bottom: 0;
+  right: 20px;
+}
+
+.backImageAboutMe {
+  background-image: url(https://erfanlab.github.io/ErfanLabbafi/assest/src/images/Svg/aboutme/personmain.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.backImageAboutMe div {
+  transition: all 0.2s ease-in-out;
+}
+.backImageAboutMe div:hover {
+  transition: all 0.2s ease-in-out;
+  font-size: 16px;
+  height: 100% !important;
+  opacity: 100% !important;
+  border-radius: 10px !important;
+}
+
+.gamebackground {
+  background-image: url(https://s31.picofile.com/file/8473072150/A_work_by_Mohammad_Irfan_Labafi.gif);
+  background-repeat: no-repeat;
+  filter: blur(70px);
+  background-size: cover;
+}
+
+.hoversm {
+  transition: all 0.1s ease-in-out !important;
+}
+.hoversm:hover {
+  transition: all 0.1s ease-in-out !important;
+  width: 67px !important;
+  height: 67px !important;
+  color: rgba(255, 255, 255, 0.4117647059) !important;
+}
+
+.coursepointer {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
