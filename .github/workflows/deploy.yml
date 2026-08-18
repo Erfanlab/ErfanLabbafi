@@ -31,11 +31,11 @@ jobs:
       - run: |
           npx ng build \
             --configuration production \
-            --base-href "/ErfanLabbafi/"
+            --base-href "/"
 
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: dist/erfan-portfolio/browser
+          path: dist/erfan-portfolio/
 
   deploy:
     needs: build
